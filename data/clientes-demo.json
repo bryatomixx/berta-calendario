@@ -1,0 +1,4021 @@
+[
+  {
+    "id": "420-latam-consultora-colombomexicana-sas",
+    "nombre": "420 LATAM CONSULTORA COLOMBOMEXICANA SAS",
+    "nit": "901584120",
+    "digitoVerificacion": "1",
+    "tipoPersona": "juridica",
+    "regimenIva": "cuatrimestral",
+    "obligacionesActivas": [
+      "renta_juridica",
+      "iva_cuatrimestral"
+    ],
+    "email": "ricardo.almanza@420latam.com",
+    "telefono": "+573168585978"
+  },
+  {
+    "id": "abel-alberto-parra-martinez",
+    "nombre": "ABEL ALBERTO PARRA MARTINEZ",
+    "nit": "98594418",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "cuatrimestral",
+    "obligacionesActivas": [
+      "renta_natural",
+      "iva_cuatrimestral"
+    ],
+    "email": "",
+    "telefono": "+573143616442"
+  },
+  {
+    "id": "adelfa-viloria-rios",
+    "nombre": "ADELFA VILORIA RIOS",
+    "nit": "22237229",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "adrian-esteban-quintero-parra",
+    "nombre": "ADRIAN ESTEBAN QUINTERO PARRA",
+    "nit": "1128481522",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "hhadrian1992@hotmail.com",
+    "telefono": ""
+  },
+  {
+    "id": "adriana-maria-aguilar-viloria",
+    "nombre": "ADRIANA MARIA AGUILAR VILORIA",
+    "nit": "43265921",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "aide-yamile-cardona-agudelo",
+    "nombre": "AIDE YAMILE CARDONA AGUDELO",
+    "nit": "39211951",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "alado-diseno-sas",
+    "nombre": "ALADO DISEÑO SAS",
+    "nit": "900290813",
+    "digitoVerificacion": "9",
+    "tipoPersona": "juridica",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "rst_anticipo",
+      "rst_consolidada"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "alberto-de-jesus-hincapie-henao",
+    "nombre": "ALBERTO DE JESUS HINCAPIE HENAO",
+    "nit": "15420417",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "alcoholes-sas",
+    "nombre": "ALCOHOLES SAS",
+    "nit": "890912799",
+    "digitoVerificacion": "9",
+    "tipoPersona": "juridica",
+    "regimenIva": "cuatrimestral",
+    "obligacionesActivas": [
+      "renta_juridica",
+      "iva_cuatrimestral"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "alejandra-morales-zapata",
+    "nombre": "ALEJANDRA MORALES ZAPATA",
+    "nit": "1040742586",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "alejandro-cardona-begue",
+    "nombre": "ALEJANDRO CARDONA BEGUE",
+    "nit": "71773171",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "alejandro-duque",
+    "nombre": "ALEJANDRO DUQUE",
+    "nit": "70167102",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": "+573187850730"
+  },
+  {
+    "id": "alejandro-gonzalez-velez",
+    "nombre": "ALEJANDRO GONZALEZ VELEZ",
+    "nit": "3415438",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "alejandro-restrepo-santa",
+    "nombre": "ALEJANDRO RESTREPO SANTA",
+    "nit": "1128277514",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "alex-jeir-correa",
+    "nombre": "ALEX JEIR CORREA",
+    "nit": "15510574",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "alexander-londono-osorno",
+    "nombre": "ALEXANDER LONDOÑO OSORNO",
+    "nit": "15287126",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": "+573148933661"
+  },
+  {
+    "id": "alexis-alejandro-ramirez-monsalve",
+    "nombre": "ALEXIS ALEJANDRO RAMIREZ MONSALVE",
+    "nit": "1020445180",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "alicia-del-socorro-lopez-callejas",
+    "nombre": "ALICIA DEL SOCORRO LOPEZ CALLEJAS",
+    "nit": "32316085",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "amanda-de-jesus-martinez",
+    "nombre": "AMANDA DE JESUS MARTINEZ",
+    "nit": "32512443",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "ana-maria-garcia-lopez",
+    "nombre": "ANA MARIA GARCIA LOPEZ",
+    "nit": "1017236874",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "ana-maria-montoya-galeano",
+    "nombre": "ANA MARIA MONTOYA GALEANO",
+    "nit": "1035420829",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "anderson-artunduaga-cabrera",
+    "nombre": "ANDERSON ARTUNDUAGA CABRERA",
+    "nit": "1036337058",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "rst_anticipo",
+      "rst_consolidada"
+    ],
+    "email": "",
+    "telefono": "+573044966380"
+  },
+  {
+    "id": "andres-felipe-higuita-sanchez",
+    "nombre": "ANDRES FELIPE HIGUITA SANCHEZ",
+    "nit": "1026158888",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": "+573007289368"
+  },
+  {
+    "id": "andres-felipe-restrepo-arango",
+    "nombre": "ANDRES FELIPE RESTREPO ARANGO",
+    "nit": "8162873",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "andres-felipe-sanchez-toledo",
+    "nombre": "ANDRES FELIPE SANCHEZ TOLEDO",
+    "nit": "1117545421",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "hermescm1985@hotmail.com",
+    "telefono": "+573122134541"
+  },
+  {
+    "id": "andres-fernandez-correa",
+    "nombre": "ANDRES FERNANDEZ CORREA",
+    "nit": "98671777",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "andres-fernando-roldan-sarrazola",
+    "nombre": "ANDRES FERNANDO ROLDAN SARRAZOLA",
+    "nit": "1036601989",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "angelica-maria-otalvaro-rios",
+    "nombre": "ANGELICA MARIA OTALVARO RIOS",
+    "nit": "43987660",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "anyi-corral-sarrazola",
+    "nombre": "ANYI CORRAL SARRAZOLA",
+    "nit": "1021802962",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "arelis-de-jesus-ramirez-monsalve",
+    "nombre": "ARELIS DE JESUS RAMIREZ MONSALVE",
+    "nit": "43477285",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "arelis-viloria-rios",
+    "nombre": "ARELIS VILORIA RIOS",
+    "nit": "22240881",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "argiro-antonio-vidal-barrientos",
+    "nombre": "ARGIRO ANTONIO VIDAL BARRIENTOS",
+    "nit": "70875979",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": "+573234387187"
+  },
+  {
+    "id": "armando-vargas-restrepo",
+    "nombre": "ARMANDO VARGAS RESTREPO",
+    "nit": "8232146",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "berta-viloria-rios",
+    "nombre": "BERTA VILORIA RIOS",
+    "nit": "43674427",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "rst_anticipo",
+      "rst_consolidada"
+    ],
+    "email": "",
+    "telefono": "+573146713703"
+  },
+  {
+    "id": "bibiana-lucia-rendon-gallego",
+    "nombre": "BIBIANA LUCIA RENDON GALLEGO",
+    "nit": "1128468514",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "brayan-alberto-mazo-moreno",
+    "nombre": "BRAYAN ALBERTO MAZO MORENO",
+    "nit": "1007676533",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "brayan-steven-londono-acosta",
+    "nombre": "BRAYAN STEVEN LONDOÑO ACOSTA",
+    "nit": "1017257295",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "camilo-cardenas-tavera",
+    "nombre": "CAMILO CARDENAS TAVERA",
+    "nit": "1040753034",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "caridad-nohelia-velez-de-norena",
+    "nombre": "CARIDAD NOHELIA VELEZ DE NOREÑA",
+    "nit": "22393825",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "carlos-andres-perez-jaramillo",
+    "nombre": "CARLOS ANDRES PEREZ JARAMILLO",
+    "nit": "1035228694",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "carlos-ignacio-gonzalez-gonzalez",
+    "nombre": "CARLOS IGNACIO GONZALEZ GONZALEZ",
+    "nit": "70048315",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "carlos-mario-soto-duque",
+    "nombre": "CARLOS MARIO SOTO DUQUE",
+    "nit": "1045019796",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "carlosmariosoto23@gmail.com",
+    "telefono": "+573116312133"
+  },
+  {
+    "id": "carolina-guisao-carvajal",
+    "nombre": "CAROLINA GUISAO CARVAJAL",
+    "nit": "32241939",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "catalina-gonzalez-gonzalez",
+    "nombre": "CATALINA GONZALEZ GONZALEZ",
+    "nit": "42897813",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "cindy-carolina-burgos-osorio",
+    "nombre": "CINDY CAROLINA BURGOS OSORIO",
+    "nit": "1017182631",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "clara-patricia-restrepo-lopez",
+    "nombre": "CLARA PATRICIA RESTREPO LOPEZ",
+    "nit": "1037597222",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "claudia-mildred-parra-martinez",
+    "nombre": "CLAUDIA MILDRED PARRA MARTINEZ",
+    "nit": "42691259",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "claudia-milena-lopez-duque",
+    "nombre": "CLAUDIA MILENA LOPEZ DUQUE",
+    "nit": "1020395144",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "comby-pollo-sas",
+    "nombre": "COMBY POLLO SAS",
+    "nit": "901475085",
+    "digitoVerificacion": "2",
+    "tipoPersona": "juridica",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_juridica",
+      "consumo"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "comercializadora-elite",
+    "nombre": "COMERCIALIZADORA ELITE",
+    "nit": "901383140",
+    "digitoVerificacion": "4",
+    "tipoPersona": "juridica",
+    "regimenIva": "cuatrimestral",
+    "obligacionesActivas": [
+      "renta_juridica",
+      "iva_cuatrimestral"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "cristian-andres-londono-salazar",
+    "nombre": "CRISTIAN ANDRES LONDOÑO SALAZAR",
+    "nit": "71792920",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": "+573014458478"
+  },
+  {
+    "id": "cristian-fauricio-ocampo-rojas",
+    "nombre": "CRISTIAN FAURICIO OCAMPO ROJAS",
+    "nit": "1118259563",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "daniela-andrea-perez-jaramillo",
+    "nombre": "DANIELA ANDREA PEREZ JARAMILLO",
+    "nit": "1035224992",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "danilson-junior-caballero-de-betin",
+    "nombre": "DANILSON JUNIOR CABALLERO DE BETIN",
+    "nit": "1081212122",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": "+573245569458"
+  },
+  {
+    "id": "davis-daniel-gomez-echeverri",
+    "nombre": "DAVIS DANIEL GOMEZ ECHEVERRI",
+    "nit": "1000194265",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "dayanis-maria-zuniga-atencia",
+    "nombre": "DAYANIS MARIA ZUÑIGA ATENCIA",
+    "nit": "1143161686",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "deison-martinez-zapata",
+    "nombre": "DEISON MARTINEZ ZAPATA",
+    "nit": "1017257431",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "oscarmrtx@gmail.com",
+    "telefono": "+573122906022"
+  },
+  {
+    "id": "deisy-alejandra-henao-hincapie",
+    "nombre": "DEISY ALEJANDRA HENAO HINCAPIE",
+    "nit": "1000401624",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "deisy-johanna-zuluaga-munoz",
+    "nombre": "DEISY JOHANNA ZULUAGA MUÑOZ",
+    "nit": "43924037",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "dervix-cabrera-chamb",
+    "nombre": "DERVIX CABRERA CHAMB",
+    "nit": "17690200",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "rst_anticipo",
+      "rst_consolidada"
+    ],
+    "email": "",
+    "telefono": "+573104315232"
+  },
+  {
+    "id": "deyber-zuniga-atencia",
+    "nombre": "DEYBER ZUÑIGA ATENCIA",
+    "nit": "1017209901",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "deyver-heynover-alvis-caviedes",
+    "nombre": "DEYVER HEYNOVER ALVIS CAVIEDES",
+    "nit": "1117493080",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "didier-alberto-norena-ciro",
+    "nombre": "DIDIER ALBERTO NOREÑA CIRO",
+    "nit": "1036604450",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": "+573155368081"
+  },
+  {
+    "id": "didier-antonio-henao-villegas",
+    "nombre": "DIDIER ANTONIO HENAO VILLEGAS",
+    "nit": "71276609",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "diego-alejandro-martinez-parra",
+    "nombre": "DIEGO ALEJANDRO MARTINEZ PARRA",
+    "nit": "1000399259",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": "+573187625887"
+  },
+  {
+    "id": "diego-vanegas-m",
+    "nombre": "DIEGO VANEGAS M",
+    "nit": "71740116",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "dimar-stiven-borja-upegui",
+    "nombre": "DIMAR STIVEN BORJA UPEGUI",
+    "nit": "1034916622",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "alexsportmotos@gmail.com",
+    "telefono": "+573116226505"
+  },
+  {
+    "id": "doris-astrid-tavera-pineda",
+    "nombre": "DORIS ASTRID TAVERA PINEDA",
+    "nit": "43531444",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "doris-edilia-upegui-sanchez",
+    "nombre": "DORIS EDILIA UPEGUI SANCHEZ",
+    "nit": "32181398",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "cuatrimestral",
+    "obligacionesActivas": [
+      "renta_natural",
+      "iva_cuatrimestral"
+    ],
+    "email": "dorisupeguis6@gmail.com",
+    "telefono": "+573045932430"
+  },
+  {
+    "id": "earth-green-colombia-sas",
+    "nombre": "EARTH GREEN COLOMBIA SAS",
+    "nit": "900467632",
+    "digitoVerificacion": "4",
+    "tipoPersona": "juridica",
+    "regimenIva": "cuatrimestral",
+    "obligacionesActivas": [
+      "renta_juridica",
+      "iva_cuatrimestral"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "economic",
+    "nombre": "ECONOMIC",
+    "nit": "901479324",
+    "digitoVerificacion": "6",
+    "tipoPersona": "juridica",
+    "regimenIva": "cuatrimestral",
+    "obligacionesActivas": [
+      "renta_juridica",
+      "iva_cuatrimestral"
+    ],
+    "email": "",
+    "telefono": "+573225693316"
+  },
+  {
+    "id": "edison-danilo-misas-misas",
+    "nombre": "EDISON DANILO MISAS MISAS",
+    "nit": "1035230798",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "edith-vahos-ortiz",
+    "nombre": "EDITH VAHOS ORTIZ",
+    "nit": "1036660093",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "edwin-de-jesus-meneses-roldan",
+    "nombre": "EDWIN DE JESUS MENESES ROLDAN",
+    "nit": "71623209",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "edwin-zapata-martinez",
+    "nombre": "EDWIN ZAPATA MARTINEZ",
+    "nit": "1037947415",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "oscarmrtx@gmail.com",
+    "telefono": "+573122906022"
+  },
+  {
+    "id": "edy-johan-garcia-duque",
+    "nombre": "EDY JOHAN GARCIA DUQUE",
+    "nit": "1037947019",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "oscarmrtx@gmail.com",
+    "telefono": "+573122906022"
+  },
+  {
+    "id": "electrogabinetes-ltda",
+    "nombre": "ELECTROGABINETES LTDA",
+    "nit": "800095648",
+    "digitoVerificacion": "1",
+    "tipoPersona": "juridica",
+    "regimenIva": "cuatrimestral",
+    "obligacionesActivas": [
+      "renta_juridica",
+      "iva_cuatrimestral"
+    ],
+    "email": "",
+    "telefono": "+573104143940"
+  },
+  {
+    "id": "elisa-sepulveda-pinto",
+    "nombre": "ELISA SEPULVEDA PINTO",
+    "nit": "1152220974",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "elizabeth-johana-vergara-espinosa",
+    "nombre": "ELIZABETH JOHANA VERGARA ESPINOSA",
+    "nit": "1026154494",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "eliza9515@hotmail.com",
+    "telefono": ""
+  },
+  {
+    "id": "elkin-dario-foronda-piedrahita",
+    "nombre": "ELKIN DARIO FORONDA PIEDRAHITA",
+    "nit": "70003377",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "elsy-janeth-parra-martinez",
+    "nombre": "ELSY JANETH PARRA MARTINEZ",
+    "nit": "43971229",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": "+573046808830"
+  },
+  {
+    "id": "emily-silgado-aristizabal",
+    "nombre": "EMILY SILGADO ARISTIZABAL",
+    "nit": "1025764142",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "oscarmrtx@gmail.com",
+    "telefono": "+573122906022"
+  },
+  {
+    "id": "enmanuel-ruiz-ruiz",
+    "nombre": "ENMANUEL RUIZ RUIZ",
+    "nit": "1035226904",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "enrique-cabrera-urbano",
+    "nombre": "ENRIQUE CABRERA URBANO",
+    "nit": "17688062",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "rst_anticipo",
+      "rst_consolidada"
+    ],
+    "email": "",
+    "telefono": "+573044966380"
+  },
+  {
+    "id": "erica-andrea-giraldo-martinez",
+    "nombre": "ERICA ANDREA GIRALDO MARTINEZ",
+    "nit": "1037608298",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "erika-johanna-morales-zapata",
+    "nombre": "ERIKA JOHANNA MORALES ZAPATA",
+    "nit": "1040748776",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "estefania-florez-orozco",
+    "nombre": "ESTEFANIA FLOREZ OROZCO",
+    "nit": "1017247787",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "estefy-carolina-duque-mora",
+    "nombre": "ESTEFY CAROLINA DUQUE MORA",
+    "nit": "1025762347",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": "+573116522892"
+  },
+  {
+    "id": "etelvina-valderrama-pino",
+    "nombre": "ETELVINA VALDERRAMA PINO",
+    "nit": "43522628",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "f-g-vision-groupe-sas",
+    "nombre": "F&G VISION GROUPE SAS",
+    "nit": "901913601",
+    "digitoVerificacion": "3",
+    "tipoPersona": "juridica",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "rst_anticipo",
+      "rst_consolidada"
+    ],
+    "email": "",
+    "telefono": "+573009074849"
+  },
+  {
+    "id": "fabian-andres-aguilar-viloria",
+    "nombre": "FABIAN ANDRES AGUILAR VILORIA",
+    "nit": "1128276627",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "fabian-andres-daza-duque",
+    "nombre": "FABIAN ANDRES DAZA DUQUE",
+    "nit": "1118297367",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "fabio-de-jesus-ramirez-morales",
+    "nombre": "FABIO DE JESUS RAMIREZ MORALES",
+    "nit": "70166017",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": "+573206749038"
+  },
+  {
+    "id": "federico-perez-urrego",
+    "nombre": "FEDERICO PEREZ URREGO",
+    "nit": "1037643595",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "felipe-mejia-ramirez",
+    "nombre": "FELIPE MEJIA RAMIREZ",
+    "nit": "1112477357",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "frecia-stella-escalante-hurtado",
+    "nombre": "FRECIA STELLA ESCALANTE HURTADO",
+    "nit": "60293703",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "fundacion-los-yeyitos",
+    "nombre": "FUNDACION LOS YEYITOS",
+    "nit": "900631292",
+    "digitoVerificacion": "6",
+    "tipoPersona": "juridica",
+    "regimenIva": "cuatrimestral",
+    "obligacionesActivas": [
+      "renta_juridica",
+      "iva_cuatrimestral"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "gabriel-valderrama-pino",
+    "nombre": "GABRIEL VALDERRAMA PINO",
+    "nit": "71367474",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "gabriela-valderrama-pino",
+    "nombre": "GABRIELA VALDERRAMA PINO",
+    "nit": "35870437",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "gasucol",
+    "nombre": "GASUCOL",
+    "nit": "900224808",
+    "digitoVerificacion": "0",
+    "tipoPersona": "juridica",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "rst_anticipo",
+      "rst_consolidada"
+    ],
+    "email": "",
+    "telefono": "+573005119315"
+  },
+  {
+    "id": "geraldin-bernal-mazo",
+    "nombre": "GERALDIN BERNAL MAZO",
+    "nit": "1128435699",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "gladys-del-s-urrego-ramirez",
+    "nombre": "GLADYS DEL S. URREGO RAMIREZ",
+    "nit": "43057460",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "gloria-del-s-gonzalez-escobar",
+    "nombre": "GLORIA DEL S GONZALEZ ESCOBAR",
+    "nit": "21722040",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "gloria-elena-norena-velez",
+    "nombre": "GLORIA ELENA NOREÑA VELEZ",
+    "nit": "39166523",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "greydy-mildrey-martinez-rendon",
+    "nombre": "GREYDY MILDREY MARTINEZ RENDON",
+    "nit": "1020484849",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": "+573105737314"
+  },
+  {
+    "id": "group-m-a-m-s-a-s",
+    "nombre": "GROUP M.A.M. S.A.S",
+    "nit": "901630943",
+    "digitoVerificacion": "1",
+    "tipoPersona": "juridica",
+    "regimenIva": "cuatrimestral",
+    "obligacionesActivas": [
+      "renta_juridica",
+      "iva_cuatrimestral"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "grupo-monaco-holdings-sas",
+    "nombre": "GRUPO MONACO HOLDINGS SAS",
+    "nit": "901994703",
+    "digitoVerificacion": "2",
+    "tipoPersona": "juridica",
+    "regimenIva": "cuatrimestral",
+    "obligacionesActivas": [
+      "renta_juridica",
+      "iva_cuatrimestral"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "guillermo-leon-tavera-pineda",
+    "nombre": "GUILLERMO LEON TAVERA PINEDA",
+    "nit": "71593426",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "gustavo-a-artunduaga-cabrera",
+    "nombre": "GUSTAVO A. ARTUNDUAGA CABRERA",
+    "nit": "17691138",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "rst_anticipo",
+      "rst_consolidada"
+    ],
+    "email": "",
+    "telefono": "+573218617962"
+  },
+  {
+    "id": "gustavo-artunduaga-castro",
+    "nombre": "GUSTAVO ARTUNDUAGA CASTRO",
+    "nit": "17632344",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": "+573218617962"
+  },
+  {
+    "id": "gustavo-de-jesus-arboleda-pineda",
+    "nombre": "GUSTAVO DE JESUS ARBOLEDA PINEDA",
+    "nit": "70083779",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "hector-abad-giraldo-norena",
+    "nombre": "HECTOR ABAD GIRALDO NOREÑA",
+    "nit": "70162896",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "hector-augusto-yepes-builes",
+    "nombre": "HECTOR AUGUSTO YEPES BUILES",
+    "nit": "17347301",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "helena-franco-echeverri",
+    "nombre": "HELENA FRANCO ECHEVERRI",
+    "nit": "1013467150",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "hermes-cabrera-moreno",
+    "nombre": "HERMES CABRERA MORENO",
+    "nit": "17689725",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "rst_anticipo",
+      "rst_consolidada"
+    ],
+    "email": "",
+    "telefono": "+573044966380"
+  },
+  {
+    "id": "hermidez-ruiz-becerra",
+    "nombre": "HERMIDEZ RUIZ BECERRA",
+    "nit": "17689929",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "hernan-alonso-botero-aristizabal",
+    "nombre": "HERNAN ALONSO BOTERO ARISTIZABAL",
+    "nit": "70696580",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "hernan-de-jesus-ramirez-torres",
+    "nombre": "HERNAN DE JESUS RAMIREZ TORRES",
+    "nit": "3575381",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "Mecanhr84@gmail.com",
+    "telefono": "+573014033289"
+  },
+  {
+    "id": "hogar-infantil-casa-del-camino",
+    "nombre": "HOGAR INFANTIL CASA DEL CAMINO",
+    "nit": "811024444",
+    "digitoVerificacion": "2",
+    "tipoPersona": "juridica",
+    "regimenIva": "cuatrimestral",
+    "obligacionesActivas": [
+      "renta_juridica",
+      "iva_cuatrimestral"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "home-office-company-sas",
+    "nombre": "HOME OFFICE COMPANY SAS",
+    "nit": "901364252",
+    "digitoVerificacion": "1",
+    "tipoPersona": "juridica",
+    "regimenIva": "cuatrimestral",
+    "obligacionesActivas": [
+      "renta_juridica",
+      "iva_cuatrimestral"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "indisproco-s-a-s",
+    "nombre": "INDISPROCO S.A.S.",
+    "nit": "901892713",
+    "digitoVerificacion": "8",
+    "tipoPersona": "juridica",
+    "regimenIva": "cuatrimestral",
+    "obligacionesActivas": [
+      "renta_juridica",
+      "iva_cuatrimestral"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "industrias-h-q-sas",
+    "nombre": "INDUSTRIAS H&Q SAS",
+    "nit": "901370763",
+    "digitoVerificacion": "6",
+    "tipoPersona": "juridica",
+    "regimenIva": "cuatrimestral",
+    "obligacionesActivas": [
+      "renta_juridica",
+      "iva_cuatrimestral"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "inversiones-aramburo-z-sas",
+    "nombre": "INVERSIONES ARAMBURO Z SAS",
+    "nit": "901971715",
+    "digitoVerificacion": "1",
+    "tipoPersona": "juridica",
+    "regimenIva": "cuatrimestral",
+    "obligacionesActivas": [
+      "renta_juridica",
+      "iva_cuatrimestral"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "inversiones-gonzalez-hnos",
+    "nombre": "INVERSIONES GONZALEZ HNOS",
+    "nit": "890901981",
+    "digitoVerificacion": "6",
+    "tipoPersona": "juridica",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_juridica"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "isabel-cristina-hoyos-murillo",
+    "nombre": "ISABEL CRISTINA HOYOS MURILLO",
+    "nit": "32181373",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "ivan-dario-aristizabal-gallego",
+    "nombre": "IVAN DARIO ARISTIZABAL GALLEGO",
+    "nit": "1152220104",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "ivan-de-jesus-otalvaro-giraldo",
+    "nombre": "IVAN DE JESUS OTALVARO GIRALDO",
+    "nit": "8275131",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "jaime-cadavid-alvarez",
+    "nombre": "JAIME CADAVID ALVAREZ",
+    "nit": "1209916",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "jasadim",
+    "nombre": "JASADIM",
+    "nit": "901308700",
+    "digitoVerificacion": "1",
+    "tipoPersona": "juridica",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "rst_anticipo",
+      "rst_consolidada"
+    ],
+    "email": "",
+    "telefono": "+573187163869"
+  },
+  {
+    "id": "jeison-aleiser-ciro-gonzalez",
+    "nombre": "JEISON ALEISER CIRO GONZALEZ",
+    "nit": "15373831",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "rst_anticipo",
+      "rst_consolidada"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "jessica-valentina-urrea-orozco",
+    "nombre": "JESSICA VALENTINA URREA OROZCO",
+    "nit": "1001845549",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": "+573043533703"
+  },
+  {
+    "id": "jesus-antonio-echavarria-aguiar",
+    "nombre": "JESUS ANTONIO ECHAVARRIA AGUIAR",
+    "nit": "71410214",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "jesus-maria-lujan-usuga",
+    "nombre": "JESUS MARIA LUJAN USUGA",
+    "nit": "1033653650",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "jhon-javier-artunduaga-molina",
+    "nombre": "JHON JAVIER ARTUNDUAGA MOLINA",
+    "nit": "1118306892",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "jhonnatan-guerra-capera",
+    "nombre": "JHONNATAN GUERRA CAPERA",
+    "nit": "1117499357",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": "+573212232689"
+  },
+  {
+    "id": "jhonny-andres-jimenez-escudero",
+    "nombre": "JHONNY ANDRES JIMENEZ ESCUDERO",
+    "nit": "15371307",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "jhorman-alonso-restrepo-torres",
+    "nombre": "JHORMAN ALONSO RESTREPO TORRES",
+    "nit": "1045076680",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "joaquin-antonio-zuniga-padilla",
+    "nombre": "JOAQUIN ANTONIO ZUÑIGA PADILLA",
+    "nit": "72168018",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "joaquin-arturo-obando-gonzalez",
+    "nombre": "JOAQUIN ARTURO OBANDO GONZALEZ",
+    "nit": "71644289",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "johan-stiven-ramirez-martinez",
+    "nombre": "JOHAN STIVEN RAMIREZ MARTINEZ",
+    "nit": "1037671893",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "cristi.alejandro@hotmail.com",
+    "telefono": ""
+  },
+  {
+    "id": "johana-andrea-zapata-salazar",
+    "nombre": "JOHANA ANDREA ZAPATA SALAZAR",
+    "nit": "1193254483",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "john-freddy-cardenas-rodas",
+    "nombre": "JOHN FREDDY CARDENAS RODAS",
+    "nit": "70166436",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": "+573001142084"
+  },
+  {
+    "id": "john-fredy-duque-zuluaga",
+    "nombre": "JOHN FREDY DUQUE ZULUAGA",
+    "nit": "71369027",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "cuatrimestral",
+    "obligacionesActivas": [
+      "renta_natural",
+      "iva_cuatrimestral",
+      "consumo"
+    ],
+    "email": "",
+    "telefono": "+573116522892"
+  },
+  {
+    "id": "john-fredy-mesa-rodriguez",
+    "nombre": "JOHN FREDY MESA RODRIGUEZ",
+    "nit": "71795114",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "john-james-artunduaga-cabrera",
+    "nombre": "JOHN JAMES ARTUNDUAGA CABRERA",
+    "nit": "17688959",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "rst_anticipo",
+      "rst_consolidada"
+    ],
+    "email": "",
+    "telefono": "+573212387706"
+  },
+  {
+    "id": "jonatan-martinez-zapata",
+    "nombre": "JONATAN MARTINEZ ZAPATA",
+    "nit": "1017238831",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "oscarmrtx@gmail.com",
+    "telefono": "+573122906022"
+  },
+  {
+    "id": "jorge-alejandro-granada-gonzalez",
+    "nombre": "JORGE ALEJANDRO GRANADA GONZALEZ",
+    "nit": "1128402400",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "jorge-eliecer-betancur-castano",
+    "nombre": "JORGE ELIECER BETANCUR CASTAÑO",
+    "nit": "71218510",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "jorge-eliecer-galvis-parra",
+    "nombre": "JORGE ELIECER GALVIS PARRA",
+    "nit": "10124541",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "jorge-ivan-norena",
+    "nombre": "JORGE IVAN NOREÑA",
+    "nit": "3426201",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "jorge-ivan-norena-velez",
+    "nombre": "JORGE IVAN NOREÑA VELEZ",
+    "nit": "15259783",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "jorge-mario-gonzalez-gonzalez",
+    "nombre": "JORGE MARIO GONZALEZ GONZALEZ",
+    "nit": "8352277",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "jose-german-norena-velez",
+    "nombre": "JOSE GERMAN NOREÑA VELEZ",
+    "nit": "15258965",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "jose-henry-ocampo-ceballos",
+    "nombre": "JOSE HENRY OCAMPO CEBALLOS",
+    "nit": "16227548",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "jose-horacio-hoyos-restrepo",
+    "nombre": "JOSE HORACIO HOYOS RESTREPO",
+    "nit": "71319919",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "cuatrimestral",
+    "obligacionesActivas": [
+      "renta_natural",
+      "iva_cuatrimestral"
+    ],
+    "email": "",
+    "telefono": "+573106052287"
+  },
+  {
+    "id": "jose-vivas",
+    "nombre": "JOSE VIVAS",
+    "nit": "1127592233",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "juan-camilo-corral-sarrazola",
+    "nombre": "JUAN CAMILO CORRAL SARRAZOLA",
+    "nit": "1128480836",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": "+573128018938"
+  },
+  {
+    "id": "juan-camilo-puerta-ciro",
+    "nombre": "JUAN CAMILO PUERTA CIRO",
+    "nit": "1037948796",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "juan-carlos-rios-garzon",
+    "nombre": "JUAN CARLOS RIOS GARZON",
+    "nit": "71701298",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "juan-david-restrepo-castrillon",
+    "nombre": "JUAN DAVID RESTREPO CASTRILLON",
+    "nit": "1152189677",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": "+573108298340"
+  },
+  {
+    "id": "juan-diego-restrepo-gallego",
+    "nombre": "JUAN DIEGO RESTREPO GALLEGO",
+    "nit": "1152212701",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "juan-gabriel-norena-velez",
+    "nombre": "JUAN GABRIEL NOREÑA VELEZ",
+    "nit": "3402432",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "juan-jose-rios-carmona",
+    "nombre": "JUAN JOSE RIOS CARMONA",
+    "nit": "1037670361",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "juan-manuel-rios-cardona",
+    "nombre": "JUAN MANUEL RIOS CARDONA",
+    "nit": "1037624353",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "juan-pablo-quintero-duque",
+    "nombre": "JUAN PABLO QUINTERO DUQUE",
+    "nit": "1045022766",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "juan-pablo-sandoval-moreno",
+    "nombre": "JUAN PABLO SANDOVAL MORENO",
+    "nit": "1128421146",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "karen-castano",
+    "nombre": "KAREN CASTAÑO",
+    "nit": "1152436798",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "keneth-henao-cardona",
+    "nombre": "KENETH HENAO CARDONA",
+    "nit": "1035236707",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "lady-johanna-rodriguez-guevara",
+    "nombre": "LADY JOHANNA RODRIGUEZ GUEVARA",
+    "nit": "1116156906",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "latin-prime-rentals-sas",
+    "nombre": "LATIN PRIME RENTALS SAS",
+    "nit": "901746020",
+    "digitoVerificacion": "8",
+    "tipoPersona": "juridica",
+    "regimenIva": "cuatrimestral",
+    "obligacionesActivas": [
+      "renta_juridica",
+      "iva_cuatrimestral"
+    ],
+    "email": "",
+    "telefono": "+19714006390"
+  },
+  {
+    "id": "laura-bustamante-carvajal",
+    "nombre": "LAURA BUSTAMANTE CARVAJAL",
+    "nit": "1007639120",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "laura-estefania-medina-yepes-pablo",
+    "nombre": "LAURA ESTEFANIA MEDINA YEPES PABLO",
+    "nit": "1035876203",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "leandro-de-jesus-quiceno-montoya",
+    "nombre": "LEANDRO DE JESUS QUICENO MONTOYA",
+    "nit": "15339696",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "leidy-johana-henao-villegas",
+    "nombre": "LEIDY JOHANA HENAO VILLEGAS",
+    "nit": "1036602929",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": "+573122207026"
+  },
+  {
+    "id": "leonardo-alonso-rodriguez-saldarriaga",
+    "nombre": "LEONARDO ALONSO RODRIGUEZ SALDARRIAGA",
+    "nit": "1128426000",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "leonardo-fabio-cadavid-martinez",
+    "nombre": "LEONARDO FABIO CADAVID MARTINEZ",
+    "nit": "15511263",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "leonardo-montiel-mejia",
+    "nombre": "LEONARDO MONTIEL MEJIA",
+    "nit": "71717708",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "lexy-celeste-chavarria-henao",
+    "nombre": "LEXY CELESTE CHAVARRIA HENAO",
+    "nit": "1033267699",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "libardo-galeano-loaiza",
+    "nombre": "LIBARDO GALEANO LOAIZA",
+    "nit": "1022123559",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "oscarmrtx@gmail.com",
+    "telefono": "+573122906022"
+  },
+  {
+    "id": "libardo-vivas-castaneda",
+    "nombre": "LIBARDO VIVAS CASTAÑEDA",
+    "nit": "79365465",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "rst_anticipo",
+      "rst_consolidada"
+    ],
+    "email": "",
+    "telefono": "+573114569363"
+  },
+  {
+    "id": "liliana-eugenia-gomez-castano",
+    "nombre": "LILIANA EUGENIA GOMEZ CASTAÑO",
+    "nit": "43077196",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "liliana-maria-garcia-hincapie",
+    "nombre": "LILIANA MARIA GARCIA HINCAPIE",
+    "nit": "39207766",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "liliana-maria-tavera-pineda",
+    "nombre": "LILIANA MARIA TAVERA PINEDA",
+    "nit": "43547940",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "lina-marcela-henao-jimenez",
+    "nombre": "LINA MARCELA HENAO JIMENEZ",
+    "nit": "1128394598",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "cuatrimestral",
+    "obligacionesActivas": [
+      "renta_natural",
+      "iva_cuatrimestral"
+    ],
+    "email": "",
+    "telefono": "+573113670968"
+  },
+  {
+    "id": "lixton",
+    "nombre": "LIXTON",
+    "nit": "901115020",
+    "digitoVerificacion": "0",
+    "tipoPersona": "juridica",
+    "regimenIva": "cuatrimestral",
+    "obligacionesActivas": [
+      "renta_juridica",
+      "iva_cuatrimestral"
+    ],
+    "email": "",
+    "telefono": "+573128508215"
+  },
+  {
+    "id": "llanerito-holding-sas",
+    "nombre": "LLANERITO HOLDING SAS",
+    "nit": "902016138",
+    "digitoVerificacion": "1",
+    "tipoPersona": "juridica",
+    "regimenIva": "cuatrimestral",
+    "obligacionesActivas": [
+      "renta_juridica",
+      "iva_cuatrimestral"
+    ],
+    "email": "",
+    "telefono": "+573044966380"
+  },
+  {
+    "id": "logros-publicitarios-sas",
+    "nombre": "LOGROS PUBLICITARIOS SAS",
+    "nit": "800086186",
+    "digitoVerificacion": "2",
+    "tipoPersona": "juridica",
+    "regimenIva": "bimestral",
+    "obligacionesActivas": [
+      "renta_juridica",
+      "iva_bimestral"
+    ],
+    "email": "",
+    "telefono": "+573108234593"
+  },
+  {
+    "id": "lucia-del-pilar-vargas-restrepo",
+    "nombre": "LUCIA DEL PILAR VARGAS RESTREPO",
+    "nit": "32076847",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "luis-alejandro-ortega-martinez",
+    "nombre": "LUIS ALEJANDRO ORTEGA MARTINEZ",
+    "nit": "1006169388",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "luis-anibal-sepulveda-villada",
+    "nombre": "LUIS ANIBAL SEPULVEDA VILLADA",
+    "nit": "70085728",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "luis-bernardo-corral-jaramillo",
+    "nombre": "LUIS BERNARDO CORRAL JARAMILLO",
+    "nit": "71715499",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "luis-hernando-hernandez-ospitia",
+    "nombre": "LUIS HERNANDO HERNANDEZ OSPITIA",
+    "nit": "5803835",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "cuatrimestral",
+    "obligacionesActivas": [
+      "renta_natural",
+      "iva_cuatrimestral"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "luis-marino-lopez-figueroa",
+    "nombre": "LUIS MARINO LOPEZ FIGUEROA",
+    "nit": "88155783",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "luz-dary-gaviria-vahos",
+    "nombre": "LUZ DARY GAVIRIA VAHOS",
+    "nit": "43615361",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "luz-esperanza-tobon-cadavid",
+    "nombre": "LUZ ESPERANZA TOBON CADAVID",
+    "nit": "43820757",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "magdalena-cabrera-munoz",
+    "nombre": "MAGDALENA CABRERA MUÑOZ",
+    "nit": "53028726",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "rst_anticipo",
+      "rst_consolidada"
+    ],
+    "email": "",
+    "telefono": "+573044966380"
+  },
+  {
+    "id": "manuela-benjumea-avalos",
+    "nombre": "MANUELA BENJUMEA AVALOS",
+    "nit": "1152220500",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "margarita-rios-de-ortiz",
+    "nombre": "MARGARITA RIOS DE ORTIZ",
+    "nit": "32439315",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "maria-alejandra-peraza-sanchez",
+    "nombre": "MARIA ALEJANDRA PERAZA SANCHEZ",
+    "nit": "6671316",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": "+573244331515"
+  },
+  {
+    "id": "maria-antonieta-hincapie-jurado",
+    "nombre": "MARIA ANTONIETA HINCAPIE JURADO",
+    "nit": "39457554",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "maria-argenis-abella-ramirez",
+    "nombre": "MARIA ARGENIS ABELLA RAMIREZ",
+    "nit": "40075149",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": "+573212387706"
+  },
+  {
+    "id": "maria-camila-amaya-ramirez",
+    "nombre": "MARIA CAMILA AMAYA RAMIREZ",
+    "nit": "1000756936",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "maria-camila-ciro-rincon",
+    "nombre": "MARIA CAMILA CIRO RINCON",
+    "nit": "1018228477",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "maria-clara-restrepo-restrepo",
+    "nombre": "MARIA CLARA RESTREPO RESTREPO",
+    "nit": "32141091",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "maria-dolly-duque-zuluaga",
+    "nombre": "MARIA DOLLY DUQUE ZULUAGA",
+    "nit": "43404927",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": "+573192762164"
+  },
+  {
+    "id": "maria-encarnacion-monsalve-marin",
+    "nombre": "MARIA ENCARNACION MONSALVE MARIN",
+    "nit": "43476320",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "maria-eucaris-munera-cardona",
+    "nombre": "MARIA EUCARIS MUNERA CARDONA",
+    "nit": "39211720",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "maria-eugenia-velez-de-gonzalez",
+    "nombre": "MARIA EUGENIA VELEZ DE GONZALEZ",
+    "nit": "32507303",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "maria-isabel-zapata-restrepo",
+    "nombre": "MARIA ISABEL ZAPATA RESTREPO",
+    "nit": "43453209",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "maria-natalia-ciro-ramirez",
+    "nombre": "MARIA NATALIA CIRO RAMIREZ",
+    "nit": "1017203898",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "nata-c15@hotmail.com",
+    "telefono": "+573014091220"
+  },
+  {
+    "id": "mariana-ceballos-castro",
+    "nombre": "MARIANA CEBALLOS CASTRO",
+    "nit": "1107522764",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "mariana-torres-naranjo",
+    "nombre": "MARIANA TORRES NARANJO",
+    "nit": "1000439521",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "marisol-marin-munera",
+    "nombre": "MARISOL MARIN MUNERA",
+    "nit": "1007471979",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "marleny-urrego-ramirez",
+    "nombre": "MARLENY URREGO RAMIREZ",
+    "nit": "43511838",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "marta-lucia-duque-zuluaga",
+    "nombre": "MARTA LUCIA DUQUE ZULUAGA",
+    "nit": "43787833",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "cuatrimestral",
+    "obligacionesActivas": [
+      "renta_natural",
+      "iva_cuatrimestral"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "marta-ninfa-echeverri-velasquez",
+    "nombre": "MARTA NINFA ECHEVERRI VELASQUEZ",
+    "nit": "21939585",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "marta-nora-gonzalez-de-gonzalez",
+    "nombre": "MARTA NORA GONZALEZ DE GONZALEZ",
+    "nit": "21343317",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "martha-isabel-tamayo-velez",
+    "nombre": "MARTHA ISABEL TAMAYO VELEZ",
+    "nit": "1128385266",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "martha-liliana-restrepo-zapata",
+    "nombre": "MARTHA LILIANA RESTREPO ZAPATA",
+    "nit": "1040033709",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "martin-emilio-tamayo-munoz",
+    "nombre": "MARTIN EMILIO TAMAYO MUÑOZ",
+    "nit": "3428004",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "mary-nelcy-mestre-luna",
+    "nombre": "MARY NELCY MESTRE LUNA",
+    "nit": "1140892085",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "mateo-macias-pulgarin",
+    "nombre": "MATEO MACIAS PULGARIN",
+    "nit": "1007799904",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "mateo-perez-jaramillo",
+    "nombre": "MATEO PEREZ JARAMILLO",
+    "nit": "1035233023",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "mateito-11p@hotmail.com",
+    "telefono": "+573217713118"
+  },
+  {
+    "id": "matias-misas-gomez",
+    "nombre": "MATIAS MISAS GOMEZ",
+    "nit": "1035234037",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "maxi-mascotas-medellin-sas",
+    "nombre": "MAXI MASCOTAS MEDELLIN SAS",
+    "nit": "901427933",
+    "digitoVerificacion": "9",
+    "tipoPersona": "juridica",
+    "regimenIva": "cuatrimestral",
+    "obligacionesActivas": [
+      "renta_juridica",
+      "iva_cuatrimestral"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "maximiliano-aramburo-zapata",
+    "nombre": "MAXIMILIANO ARAMBURO ZAPATA",
+    "nit": "1034993406",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "megastore",
+    "nombre": "MEGASTORE",
+    "nit": "901427554",
+    "digitoVerificacion": "0",
+    "tipoPersona": "juridica",
+    "regimenIva": "cuatrimestral",
+    "obligacionesActivas": [
+      "renta_juridica",
+      "iva_cuatrimestral"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "melisa-obando-giraldo",
+    "nombre": "MELISA OBANDO GIRALDO",
+    "nit": "1152188798",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "merke-farma-sas",
+    "nombre": "MERKE FARMA SAS",
+    "nit": "901285747",
+    "digitoVerificacion": "4",
+    "tipoPersona": "juridica",
+    "regimenIva": "cuatrimestral",
+    "obligacionesActivas": [
+      "renta_juridica",
+      "iva_cuatrimestral"
+    ],
+    "email": "",
+    "telefono": "+573017215901"
+  },
+  {
+    "id": "miguel-angel-henao-ciro",
+    "nombre": "MIGUEL ANGEL HENAO CIRO",
+    "nit": "1036679177",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "miguel-angel-martinez-marin",
+    "nombre": "MIGUEL ANGEL MARTINEZ MARIN",
+    "nit": "1035971449",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "miguel-valderrama-pino",
+    "nombre": "MIGUEL VALDERRAMA PINO",
+    "nit": "71332583",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "monica-maria-avalos-sepulveda",
+    "nombre": "MONICA MARIA AVALOS SEPULVEDA",
+    "nit": "42897595",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "nallely-cano-castano",
+    "nombre": "NALLELY CANO CASTAÑO",
+    "nit": "1000192726",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "nataly-rincon-giraldo",
+    "nombre": "NATALY RINCON GIRALDO",
+    "nit": "1128385433",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "nilson-de-jesus-atehortua-zapata",
+    "nombre": "NILSON DE JESUS ATEHORTUA ZAPATA",
+    "nit": "70631997",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "nini-yojana-pineda-goez",
+    "nombre": "NINI YOJANA PINEDA GOEZ",
+    "nit": "43897987",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "nora-del-consuelo-rios-osorno",
+    "nombre": "NORA DEL CONSUELO RIOS OSORNO",
+    "nit": "21823196",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "nora-elena-gonzalez-gonzalez",
+    "nombre": "NORA ELENA GONZALEZ GONZALEZ",
+    "nit": "43015103",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "olga-silena-gomez-pulgarin",
+    "nombre": "OLGA SILENA GOMEZ PULGARIN",
+    "nit": "1020469456",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "olivella-munoz-gomez",
+    "nombre": "OLIVELLA MUÑOZ GOMEZ",
+    "nit": "1017177728",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": "+573135560277"
+  },
+  {
+    "id": "olman-fernando-martinez",
+    "nombre": "OLMAN FERNANDO MARTINEZ",
+    "nit": "98648274",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "oscar-alberto-martinez-garcia",
+    "nombre": "OSCAR ALBERTO MARTINEZ GARCIA",
+    "nit": "70166355",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "oscarmrtx@gmail.com",
+    "telefono": "+573122906022"
+  },
+  {
+    "id": "oscar-alexander-parra-martinez",
+    "nombre": "OSCAR ALEXANDER PARRA MARTINEZ",
+    "nit": "98648430",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "cuatrimestral",
+    "obligacionesActivas": [
+      "rst_consolidada",
+      "iva_cuatrimestral"
+    ],
+    "email": "",
+    "telefono": "+573117947077"
+  },
+  {
+    "id": "oscar-hernando-aguinaga-hernandez",
+    "nombre": "OSCAR HERNANDO AGUINAGA HERNANDEZ",
+    "nit": "3538176",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "oswaldo-octavio-duarte-rios",
+    "nombre": "OSWALDO OCTAVIO DUARTE RIOS",
+    "nit": "71312304",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "paola-andrea-quintero-acevedo",
+    "nombre": "PAOLA ANDREA QUINTERO ACEVEDO",
+    "nit": "1152693705",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "aldos22@hotmail.com",
+    "telefono": "+573024354103"
+  },
+  {
+    "id": "paola-andrea-sanchez-montoya",
+    "nombre": "PAOLA ANDREA SANCHEZ MONTOYA",
+    "nit": "43639731",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "paola-salazar-tavera",
+    "nombre": "PAOLA SALAZAR TAVERA",
+    "nit": "1152689011",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "parvertidos-sas",
+    "nombre": "PARVERTIDOS SAS",
+    "nit": "901736114",
+    "digitoVerificacion": "9",
+    "tipoPersona": "juridica",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_juridica",
+      "consumo"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "pastor-antonio-martinez-garcia",
+    "nombre": "PASTOR ANTONIO MARTINEZ GARCIA",
+    "nit": "70164180",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural",
+      "consumo"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "patricia-maria-tavera-pineda",
+    "nombre": "PATRICIA MARIA TAVERA PINEDA",
+    "nit": "43082498",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "rst_anticipo",
+      "rst_consolidada"
+    ],
+    "email": "",
+    "telefono": "+573147991095"
+  },
+  {
+    "id": "patricia-perez",
+    "nombre": "PATRICIA PEREZ",
+    "nit": "43434437",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": "+573116420758"
+  },
+  {
+    "id": "paula-andrea-echeverri-londono",
+    "nombre": "PAULA ANDREA ECHEVERRI LONDOÑO",
+    "nit": "30505600",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "pedro-javier-gonzalez-gonzalez",
+    "nombre": "PEDRO JAVIER GONZALEZ GONZALEZ",
+    "nit": "70090919",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "raul-andres-aristizabal-zapata",
+    "nombre": "RAUL ANDRES ARISTIZABAL ZAPATA",
+    "nit": "1152691497",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "oscarmrtx@gmail.com",
+    "telefono": "+573122906022"
+  },
+  {
+    "id": "reinaldo-de-jesus-ramirez-monsalve",
+    "nombre": "REINALDO DE JESUS RAMIREZ MONSALVE",
+    "nit": "1020411119",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "naldos22@hotmail.com",
+    "telefono": "+573116264642"
+  },
+  {
+    "id": "reinel-de-jesus-duran-ossa",
+    "nombre": "REINEL DE JESUS DURAN OSSA",
+    "nit": "71294869",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "oscarmrtx@gmail.com",
+    "telefono": "+573122906022"
+  },
+  {
+    "id": "restaurante-el-llanerito-sas",
+    "nombre": "RESTAURANTE EL LLANERITO SAS",
+    "nit": "902013318",
+    "digitoVerificacion": "5",
+    "tipoPersona": "juridica",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "rst_anticipo",
+      "rst_consolidada"
+    ],
+    "email": "",
+    "telefono": "+573044966380"
+  },
+  {
+    "id": "ricardo-augusto-pena-motta",
+    "nombre": "RICARDO AUGUSTO PEÑA MOTTA",
+    "nit": "11230432",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "rigo-alberto-gomez-vasquez",
+    "nombre": "RIGO ALBERTO GOMEZ VASQUEZ",
+    "nit": "98503491",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "rosa-angelica-jaramillo-calderon",
+    "nombre": "ROSA ANGELICA JARAMILLO CALDERON",
+    "nit": "39206527",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "rosalbina-pinto-figueroa",
+    "nombre": "ROSALBINA PINTO FIGUEROA",
+    "nit": "45459231",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "ruben-arley-quintero-duque",
+    "nombre": "RUBEN ARLEY QUINTERO DUQUE",
+    "nit": "1045024989",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "ruben-arturo-quintero-quintero",
+    "nombre": "RUBEN ARTURO QUINTERO QUINTERO",
+    "nit": "70694837",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "cuatrimestral",
+    "obligacionesActivas": [
+      "renta_natural",
+      "iva_cuatrimestral"
+    ],
+    "email": "",
+    "telefono": "+573006749477"
+  },
+  {
+    "id": "sandra-yaneth-rodriguez-saldarriaga",
+    "nombre": "SANDRA YANETH RODRIGUEZ SALDARRIAGA",
+    "nit": "43999245",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": "+573116522892"
+  },
+  {
+    "id": "santiago-ledesma-gallego",
+    "nombre": "SANTIAGO LEDESMA GALLEGO",
+    "nit": "1000643617",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "santiago-rincon-giraldo",
+    "nombre": "SANTIAGO RINCON GIRALDO",
+    "nit": "1020480739",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "sara-sofia-correa-valencia",
+    "nombre": "SARA SOFIA CORREA VALENCIA",
+    "nit": "1017198831",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": "+573196786218"
+  },
+  {
+    "id": "sebastian-felipe-valrelas",
+    "nombre": "SEBASTIAN FELIPE VALRELAS",
+    "nit": "1017226901",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "sebastian-hincapie-jurado",
+    "nombre": "SEBASTIAN HINCAPIE JURADO",
+    "nit": "1036935233",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "sebastian-isaza-gallego",
+    "nombre": "SEBASTIAN ISAZA GALLEGO",
+    "nit": "1152440305",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "sebastian-vargas-martinez",
+    "nombre": "SEBASTIAN VARGAS MARTINEZ",
+    "nit": "3399711",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "signi-dayana-gomez-duque",
+    "nombre": "SIGNI DAYANA GOMEZ DUQUE",
+    "nit": "1029880444",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "oscarmrtx@gmail.com",
+    "telefono": "+573122906022"
+  },
+  {
+    "id": "sonia-amparo-tobon-naranjo",
+    "nombre": "SONIA AMPARO TOBON NARANJO",
+    "nit": "32391284",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "susana-duque-velasquez",
+    "nombre": "SUSANA DUQUE VELASQUEZ",
+    "nit": "43477785",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": "+573157004677"
+  },
+  {
+    "id": "tania-liceth-giraldo-zuluaga",
+    "nombre": "TANIA LICETH GIRALDO ZULUAGA",
+    "nit": "1007962154",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "tatiana-parra-lopez",
+    "nombre": "TATIANA PARRA LOPEZ",
+    "nit": "1020488880",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "tavera-cardena-y-cia",
+    "nombre": "TAVERA CARDENA Y CIA",
+    "nit": "900122116",
+    "digitoVerificacion": "4",
+    "tipoPersona": "juridica",
+    "regimenIva": "cuatrimestral",
+    "obligacionesActivas": [
+      "renta_juridica",
+      "iva_cuatrimestral"
+    ],
+    "email": "",
+    "telefono": "+573128508215"
+  },
+  {
+    "id": "teodolindo-rodriguez-rojas",
+    "nombre": "TEODOLINDO RODRIGUEZ ROJAS",
+    "nit": "2727947",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "valeria-esther-orozco-marriaga",
+    "nombre": "VALERIA ESTHER OROZCO MARRIAGA",
+    "nit": "1002157601",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "valerin-katerine-ocampo-araque",
+    "nombre": "VALERIN KATERINE OCAMPO ARAQUE",
+    "nit": "1000399450",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "veronica-alexandra-garcia-duque",
+    "nombre": "VERONICA ALEXANDRA GARCIA DUQUE",
+    "nit": "1075217810",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "oscarmrtx@gmail.com",
+    "telefono": "+573122906022"
+  },
+  {
+    "id": "viviana-aguilar-viloria",
+    "nombre": "VIVIANA AGUILAR VILORIA",
+    "nit": "32184847",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "walter-de-jesus-gomez-cardona",
+    "nombre": "WALTER DE JESUS GOMEZ CARDONA",
+    "nit": "71330693",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "wilfredo-artunduaga-cabrera",
+    "nombre": "WILFREDO ARTUNDUAGA CABRERA",
+    "nit": "1117518007",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural",
+      "consumo"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "william-de-jesus-borja",
+    "nombre": "WILLIAM DE JESUS BORJA",
+    "nit": "70100313",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "cuatrimestral",
+    "obligacionesActivas": [
+      "renta_natural",
+      "iva_cuatrimestral"
+    ],
+    "email": "sonyvideo3@yahoo.com",
+    "telefono": "+573044616323"
+  },
+  {
+    "id": "wilmer-alonso-castiblanco",
+    "nombre": "WILMER ALONSO CASTIBLANCO",
+    "nit": "1125761427",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": "+573244331515"
+  },
+  {
+    "id": "wilson-ceballos-aya",
+    "nombre": "WILSON CEBALLOS AYA",
+    "nit": "16728422",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "queseravillanueva@hotmail.com",
+    "telefono": "+573156797780"
+  },
+  {
+    "id": "wilson-corral-jaramillo",
+    "nombre": "WILSON CORRAL JARAMILLO",
+    "nit": "98584568",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "wilson-jimenez-zapata",
+    "nombre": "WILSON JIMENEZ ZAPATA",
+    "nit": "15404834",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "wilson-navarro-arevalo",
+    "nombre": "WILSON NAVARRO AREVALO",
+    "nit": "71268705",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "xamir-jimenez-zambrano",
+    "nombre": "XAMIR JIMENEZ ZAMBRANO",
+    "nit": "19768076",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "yasmin-edilia-orozco-giraldo",
+    "nombre": "YASMIN EDILIA OROZCO GIRALDO",
+    "nit": "40779791",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "yeferson-leandro-garzon-garcia",
+    "nombre": "YEFERSON LEANDRO GARZON GARCIA",
+    "nit": "70143083",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "yeimy-cristina-duque-mona",
+    "nombre": "YEIMY CRISTINA DUQUE MONA",
+    "nit": "1020452562",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "yeison-andres-cardona-velasquez",
+    "nombre": "YEISON ANDRES CARDONA VELASQUEZ",
+    "nit": "15447289",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "yeison-ramirez-martinez",
+    "nombre": "YEISON RAMIREZ MARTINEZ",
+    "nit": "1115064500",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "rst_anticipo",
+      "rst_consolidada"
+    ],
+    "email": "",
+    "telefono": "+573006600041"
+  },
+  {
+    "id": "yeisson-velez-zuluaga",
+    "nombre": "YEISSON VELEZ ZULUAGA",
+    "nit": "1037580754",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": "+573104050495"
+  },
+  {
+    "id": "yerfenson-alexander-pena-rozo",
+    "nombre": "YERFENSON ALEXANDER PEÑA ROZO",
+    "nit": "1121837982",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "yesica-andrea-osorio-ardila",
+    "nombre": "YESICA ANDREA OSORIO ARDILA",
+    "nit": "1020447466",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "yoan-andres-ramirez-yarce",
+    "nombre": "YOAN ANDRES RAMIREZ YARCE",
+    "nit": "1037612259",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "yojan-camilo-castrillon-pimienta",
+    "nombre": "YOJAN CAMILO CASTRILLON PIMIENTA",
+    "nit": "1037655642",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "yulie-elesa-garcia-quintana",
+    "nombre": "YULIE ELESA GARCIA QUINTANA",
+    "nit": "1047393803",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "",
+    "telefono": ""
+  },
+  {
+    "id": "yuly-andrea-lopez-jimenez",
+    "nombre": "YULY ANDREA LOPEZ JIMENEZ",
+    "nit": "1036658086",
+    "digitoVerificacion": "",
+    "tipoPersona": "natural",
+    "regimenIva": "no_aplica",
+    "obligacionesActivas": [
+      "renta_natural"
+    ],
+    "email": "oscarmrtx@gmail.com",
+    "telefono": "+573122906022"
+  }
+]

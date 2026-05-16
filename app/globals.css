@@ -1,0 +1,114 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #f8f3e9;
+  --color-cream-deep: #f0e9d8;
+  --color-paper: #fefcf7;
+  --color-ink: #1a1814;
+  --color-ink-soft: #44403c;
+  --color-ink-muted: #78716c;
+  --color-ink-faint: #a8a29e;
+  --color-rule: #e7e0cf;
+  --color-rule-soft: #efe8d8;
+
+  --color-terracotta: #b6532a;
+  --color-terracotta-soft: #f4ddc8;
+
+  --color-sage: #5a6f4f;
+  --color-sage-soft: #e3eadc;
+  --color-amber-deep: #a3690e;
+  --color-amber-soft: #f6e3b8;
+  --color-rust: #b34614;
+  --color-rust-soft: #fadccb;
+  --color-crimson: #962020;
+  --color-crimson-soft: #f6cccc;
+  --color-graphite: #292524;
+  --color-graphite-soft: #e7e3df;
+
+  --font-serif: 'Fraunces', 'Georgia', serif;
+  --font-sans: 'DM Sans', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+html {
+  background: var(--color-cream);
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-feature-settings: "ss01", "cv11";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.font-serif {
+  font-family: var(--font-serif);
+  font-feature-settings: "ss01";
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+  font-feature-settings: "tnum", "ss01";
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
+}
+
+.serif-italic {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-optical-sizing: auto;
+}
+
+.dotted-rule {
+  background-image: radial-gradient(circle, var(--color-rule) 1px, transparent 1px);
+  background-size: 6px 1px;
+  background-repeat: repeat-x;
+  background-position: 0 50%;
+  height: 1px;
+}
+
+.dot-grid {
+  background-image: radial-gradient(circle, rgba(26, 24, 20, 0.08) 1px, transparent 1px);
+  background-size: 18px 18px;
+  background-position: -1px -1px;
+}
+
+.paper-shadow {
+  box-shadow:
+    0 1px 0 0 rgba(26, 24, 20, 0.04),
+    0 1px 2px 0 rgba(26, 24, 20, 0.04),
+    0 8px 24px -12px rgba(26, 24, 20, 0.08);
+}
+
+.paper-shadow-lg {
+  box-shadow:
+    0 1px 0 0 rgba(26, 24, 20, 0.04),
+    0 2px 4px 0 rgba(26, 24, 20, 0.04),
+    0 24px 48px -16px rgba(26, 24, 20, 0.12);
+}
+
+.tracker {
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 0.6875rem;
+}
+
+@keyframes pulse-dot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.55; transform: scale(0.85); }
+}
+
+.dot-pulse {
+  animation: pulse-dot 1.8s ease-in-out infinite;
+}
+
+::selection {
+  background: var(--color-terracotta);
+  color: var(--color-paper);
+}
