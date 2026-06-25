@@ -1,28 +1,26 @@
-import type { Metadata } from "next";
-import { Fraunces, DM_Sans, JetBrains_Mono } from "next/font/google";
-import "./globals.css";
+import type { Metadata } from 'next';
+import { Plus_Jakarta_Sans, Fraunces, JetBrains_Mono } from 'next/font/google';
+import './globals.css';
 
+const sans = Plus_Jakarta_Sans({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+});
+
+// Fuentes del modulo tributario (calendario): serif editorial + mono.
 const fraunces = Fraunces({
-  subsets: ["latin"],
-  variable: "--font-serif",
-  display: "swap",
+  subsets: ['latin'],
+  style: ['normal', 'italic'],
+  variable: '--font-fraunces',
 });
-
-const dmSans = DM_Sans({
-  subsets: ["latin"],
-  variable: "--font-sans",
-  display: "swap",
-});
-
 const jetbrains = JetBrains_Mono({
-  subsets: ["latin"],
-  variable: "--font-mono",
-  display: "swap",
+  subsets: ['latin'],
+  variable: '--font-jetbrains-mono',
 });
 
 export const metadata: Metadata = {
-  title: "Berta — Recordatorios DIAN",
-  description: "Calendario tributario para clientes de Berta",
+  title: 'BVR Asesorías',
+  description: 'Centro de control de BVR Asesorías: tareas del equipo y calendario tributario',
 };
 
 export default function RootLayout({
@@ -31,12 +29,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html
-      lang="es"
-      className={`${fraunces.variable} ${dmSans.variable} ${jetbrains.variable}`}
-      suppressHydrationWarning
-    >
-      <body suppressHydrationWarning>{children}</body>
+    <html lang="es" className={`${fraunces.variable} ${jetbrains.variable}`}>
+      {/*
+        suppressHydrationWarning: algunas extensiones del navegador (p. ej.
+        ColorZilla, con cz-shortcut-listen) inyectan atributos en <body> antes
+        de que React hidrate, lo que dispara un aviso de hydration mismatch que
+        no es un bug de la app. Esto solo silencia ese nivel, no mismatches reales.
+      */}
+      <body
+        suppressHydrationWarning
+        className={`${sans.className} bg-slate-50 text-slate-900 antialiased`}
+      >
+        {children}
+      </body>
     </html>
   );
 }

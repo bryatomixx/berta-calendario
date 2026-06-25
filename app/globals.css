@@ -1,6 +1,160 @@
 @import "tailwindcss";
 
 @theme {
+  /* ----- Color: Neutrales ----- */
+  --color-canvas:      #FFFFFF;
+  --color-surface:     #F8F9FC;
+  --color-surface-2:   #F1F3F9;
+  --color-border:      #E4E7EF;
+  --color-border-soft: #EFF1F7;
+
+  /* ----- Color: Texto ----- */
+  --color-text-primary:   #0F172A;
+  --color-text-secondary: #475569;
+  --color-text-muted:     #94A3B8;
+  --color-text-disabled:  #CBD5E1;
+
+  /* ----- Color: Acento teal ----- */
+  --color-teal-50:  #F0FDFA;
+  --color-teal-100: #CCFBF1;
+  --color-teal-200: #99F6E4;
+  --color-teal-500: #14B8A6;
+  --color-teal-600: #0D9488;
+  --color-teal-700: #0F766E;
+  --color-teal-900: #134E4A;
+
+  /* ----- Color: Estados semanticos ----- */
+  --color-pendiente-bg:    #FFFBEB;
+  --color-pendiente-border:#FDE68A;
+  --color-pendiente-text:  #92400E;
+  --color-pendiente-chip:  #FEF3C7;
+
+  --color-proceso-bg:    #F0F9FF;
+  --color-proceso-border:#BAE6FD;
+  --color-proceso-text:  #075985;
+  --color-proceso-chip:  #E0F2FE;
+
+  --color-hecho-bg:    #F0FDF4;
+  --color-hecho-border:#BBF7D0;
+  --color-hecho-text:  #14532D;
+  --color-hecho-chip:  #DCFCE7;
+
+  /* ----- Color: Categorias (badges) ----- */
+  --color-cat-landing-bg:    #DBEAFE;
+  --color-cat-landing-text:  #1E40AF;
+  --color-cat-anuncios-bg:   #FFEDD5;
+  --color-cat-anuncios-text: #9A3412;
+  --color-cat-seo-bg:        #DCFCE7;
+  --color-cat-seo-text:      #14532D;
+  --color-cat-diseno-bg:     #FCE7F3;
+  --color-cat-diseno-text:   #831843;
+  --color-cat-copy-bg:       #F3E8FF;
+  --color-cat-copy-text:     #6B21A8;
+  --color-cat-devweb-bg:     #CFFAFE;
+  --color-cat-devweb-text:   #164E63;
+  --color-cat-reunion-bg:    #FEF9C3;
+  --color-cat-reunion-text:  #713F12;
+  --color-cat-otro-bg:       #F1F5F9;
+  --color-cat-otro-text:     #475569;
+
+  /* ----- Tipografia ----- */
+  --font-sans: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
+
+  --text-display: 1.75rem;
+  --text-xl:      1.25rem;
+  --text-lg:      1.125rem;
+  --text-base:    0.9375rem;
+  --text-sm:      0.8125rem;
+  --text-xs:      0.6875rem;
+
+  --leading-tight:   1.2;
+  --leading-normal:  1.5;
+  --leading-relaxed: 1.65;
+
+  /* ----- Espaciado ----- */
+  --sidebar-w:      240px;
+  --topbar-h:       56px;
+  --content-max-w:  1100px;
+  --page-px:        32px;
+  --page-py:        28px;
+  --section-gap:    24px;
+  --card-p:         20px;
+  --card-p-sm:      14px;
+
+  /* ----- Radios ----- */
+  --radius-sm:   6px;
+  --radius-md:   10px;
+  --radius-lg:   14px;
+  --radius-xl:   18px;
+  --radius-full: 9999px;
+
+  /* ----- Sombras ----- */
+  --shadow-xs:   0 1px 2px 0 rgba(15,23,42,0.05);
+  --shadow-sm:   0 1px 3px 0 rgba(15,23,42,0.06), 0 1px 2px -1px rgba(15,23,42,0.04);
+  --shadow-card: 0 1px 2px 0 rgba(15,23,42,0.04), 0 4px 12px -2px rgba(15,23,42,0.06);
+  --shadow-card-hover: 0 2px 4px 0 rgba(15,23,42,0.05), 0 12px 24px -4px rgba(15,23,42,0.09);
+  --shadow-modal: 0 20px 60px -12px rgba(15,23,42,0.22), 0 4px 16px -4px rgba(15,23,42,0.10);
+
+  /* ----- Transiciones ----- */
+  --duration-fast:   150ms;
+  --duration-normal: 200ms;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Premium motion primitives. */
+@keyframes ccc-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes ccc-scale-in {
+  from { opacity: 0; transform: scale(0.97); }
+  to { opacity: 1; transform: scale(1); }
+}
+@keyframes ccc-slide-up-fade {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes ccc-dot-pulse {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.35; }
+}
+
+.animate-fade-in       { animation: ccc-fade-in 180ms ease-out both; }
+.animate-scale-in      { animation: ccc-scale-in 200ms ease-out both; }
+.animate-slide-up-fade { animation: ccc-slide-up-fade 240ms ease-out both; }
+.animate-dot-pulse     { animation: ccc-dot-pulse 1.6s ease-in-out infinite; }
+
+/* Sombras utilitarias */
+.shadow-xs {
+  box-shadow: var(--shadow-xs);
+}
+.shadow-card {
+  box-shadow: var(--shadow-card);
+}
+.shadow-card-hover {
+  box-shadow: var(--shadow-card-hover);
+}
+.shadow-modal {
+  box-shadow: var(--shadow-modal);
+}
+
+/* Sidebar layout helper */
+.sidebar-w { width: var(--sidebar-w); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* =========================================================================
+   Modulo Tributario (calendario DIAN): tokens y utilidades del calendario.
+   Conserva su estetica editorial (cream / ink / terracota / semaforo).
+   ========================================================================= */
+@theme {
   --color-cream: #f8f3e9;
   --color-cream-deep: #f0e9d8;
   --color-paper: #fefcf7;
@@ -25,44 +179,15 @@
   --color-graphite: #292524;
   --color-graphite-soft: #e7e3df;
 
-  --font-serif: 'Fraunces', 'Georgia', serif;
-  --font-sans: 'DM Sans', system-ui, sans-serif;
-  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  --font-serif: var(--font-fraunces), 'Georgia', serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, monospace;
 }
 
-html {
-  background: var(--color-cream);
-}
-
-body {
-  font-family: var(--font-sans);
-  background: var(--color-cream);
-  color: var(--color-ink);
-  font-feature-settings: "ss01", "cv11";
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.font-serif {
-  font-family: var(--font-serif);
-  font-feature-settings: "ss01";
-}
-
-.font-mono {
-  font-family: var(--font-mono);
-  font-feature-settings: "tnum", "ss01";
-}
-
-.tabular {
-  font-variant-numeric: tabular-nums;
-  font-feature-settings: "tnum";
-}
-
-.serif-italic {
-  font-family: var(--font-serif);
-  font-style: italic;
-  font-optical-sizing: auto;
-}
+.font-serif { font-family: var(--font-serif); font-feature-settings: "ss01"; }
+.serif-italic { font-family: var(--font-serif); font-style: italic; font-optical-sizing: auto; }
+.font-mono { font-family: var(--font-mono); font-feature-settings: "tnum", "ss01"; }
+.tabular { font-variant-numeric: tabular-nums; font-feature-settings: "tnum"; }
+.tracker { letter-spacing: 0.14em; text-transform: uppercase; font-weight: 500; font-size: 0.6875rem; }
 
 .dotted-rule {
   background-image: radial-gradient(circle, var(--color-rule) 1px, transparent 1px);
@@ -71,44 +196,19 @@ body {
   background-position: 0 50%;
   height: 1px;
 }
-
 .dot-grid {
   background-image: radial-gradient(circle, rgba(26, 24, 20, 0.08) 1px, transparent 1px);
   background-size: 18px 18px;
   background-position: -1px -1px;
 }
-
 .paper-shadow {
-  box-shadow:
-    0 1px 0 0 rgba(26, 24, 20, 0.04),
-    0 1px 2px 0 rgba(26, 24, 20, 0.04),
-    0 8px 24px -12px rgba(26, 24, 20, 0.08);
+  box-shadow: 0 1px 0 0 rgba(26,24,20,0.04), 0 1px 2px 0 rgba(26,24,20,0.04), 0 8px 24px -12px rgba(26,24,20,0.08);
 }
-
 .paper-shadow-lg {
-  box-shadow:
-    0 1px 0 0 rgba(26, 24, 20, 0.04),
-    0 2px 4px 0 rgba(26, 24, 20, 0.04),
-    0 24px 48px -16px rgba(26, 24, 20, 0.12);
+  box-shadow: 0 1px 0 0 rgba(26,24,20,0.04), 0 2px 4px 0 rgba(26,24,20,0.04), 0 24px 48px -16px rgba(26,24,20,0.12);
 }
-
-.tracker {
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 0.6875rem;
-}
-
 @keyframes pulse-dot {
   0%, 100% { opacity: 1; transform: scale(1); }
   50% { opacity: 0.55; transform: scale(0.85); }
 }
-
-.dot-pulse {
-  animation: pulse-dot 1.8s ease-in-out infinite;
-}
-
-::selection {
-  background: var(--color-terracotta);
-  color: var(--color-paper);
-}
+.dot-pulse { animation: pulse-dot 1.8s ease-in-out infinite; }

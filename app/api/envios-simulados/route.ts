@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
-import { cargarClientes, cargarCalendario } from "@/lib/clientes";
-import { generarEnviosSimulados } from "@/lib/notificaciones";
+import { cargarClientes, cargarCalendario } from "@/lib/tributario/clientes";
+import { generarEnviosSimulados } from "@/lib/tributario/notificaciones";
 
 export async function GET() {
   const [clientes, calendario] = await Promise.all([

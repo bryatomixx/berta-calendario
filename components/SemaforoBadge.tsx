@@ -1,4 +1,4 @@
-import type { EstadoSemaforo } from "@/lib/types";
+import type { EstadoSemaforo } from "@/lib/tributario/types";
 
 const STYLES: Record<
   EstadoSemaforo,
