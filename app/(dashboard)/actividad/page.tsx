@@ -2,10 +2,11 @@
 
 import { useEffect, useMemo, useState } from 'react';
 import {
-  ListChecks, Timer, Users, ChevronLeft, ChevronRight, Clock,
+  ListChecks, Timer, Users, ChevronLeft, ChevronRight, Clock, Building2,
 } from 'lucide-react';
 import { getTasks } from '@/lib/db/tasks';
 import { getMembers } from '@/lib/db/members';
+import { getClients } from '@/lib/db/clients';
 import { useCurrentMember } from '@/hooks/useCurrentMember';
 import { ROLE_LABELS } from '@/lib/constants';
 import { PageHeader } from '@/components/ui/PageHeader';
@@ -15,9 +16,8 @@ import { Badge } from '@/components/ui/Badge';
 import { EmptyState } from '@/components/ui/EmptyState';
 import { Skeleton } from '@/components/ui/Skeleton';
 import { Avatar } from '@/components/Avatar';
-import { CategoryBadge } from '@/components/CategoryBadge';
 import { PriorityBadge } from '@/components/PriorityBadge';
-import type { Member, Task } from '@/lib/types';
+import type { Cliente, Member, Task } from '@/lib/types';
 
 function todayStr(): string {
   return new Date().toISOString().slice(0, 10);
@@ -34,12 +34,17 @@ function longDate(date: string): string {
 }
 
 /* Una fila de tarea trabajada ese dia */
-function TaskRow({ task }: { task: Task }) {
+function TaskRow({ task, clientName }: { task: Task; clientName?: string }) {
   return (
     <div className="flex items-center gap-3 py-2.5 border-b border-[var(--color-border-soft)] last:border-0">
       <Badge variant="status" value={task.status} size="xs" />
       <p className="flex-1 min-w-0 text-sm text-[var(--color-text-primary)] truncate">{task.title}</p>
-      <CategoryBadge category={task.category} />
+      {clientName && (
+        <span className="hidden sm:inline-flex items-center gap-1 max-w-[160px] rounded-full bg-teal-50 px-2 py-0.5 text-[11px] font-semibold text-teal-700">
+          <Building2 className="w-3 h-3 shrink-0" aria-hidden="true" />
+          <span className="truncate">{clientName}</span>
+        </span>
+      )}
       <PriorityBadge priority={task.priority} variant="dot" />
       <span className="flex items-center gap-1 text-xs tabular-nums text-[var(--color-text-secondary)] w-16 justify-end">
         {task.hours != null ? (
@@ -56,12 +61,13 @@ export default function ActividadPage() {
   const { memberId, loaded } = useCurrentMember();
   const [tasks, setTasks] = useState<Task[]>([]);
   const [members, setMembers] = useState<Member[]>([]);
+  const [clients, setClients] = useState<Cliente[]>([]);
   const [loading, setLoading] = useState(true);
   const [date, setDate] = useState<string | null>(null);
 
   useEffect(() => {
-    Promise.all([getTasks(), getMembers()])
-      .then(([t, m]) => { setTasks(t); setMembers(m); })
+    Promise.all([getTasks(), getMembers(), getClients()])
+      .then(([t, m, c]) => { setTasks(t); setMembers(m); setClients(c); })
       .finally(() => setLoading(false));
   }, []);
 
@@ -99,6 +105,9 @@ export default function ActividadPage() {
   }, [dayTasks]);
 
   const memberById = new Map(members.map((m) => [m.id, m]));
+  const clientById = new Map(clients.map((c) => [c.id, c]));
+  const clientNameOf = (t: Task) =>
+    t.client_id ? clientById.get(t.client_id)?.nombre : undefined;
 
   if (loading || !loaded) {
     return (
@@ -203,7 +212,7 @@ export default function ActividadPage() {
                   </span>
                 </div>
                 <div>
-                  {items.map((t) => <TaskRow key={t.id} task={t} />)}
+                  {items.map((t) => <TaskRow key={t.id} task={t} clientName={clientNameOf(t)} />)}
                 </div>
               </Card>
             );
@@ -211,7 +220,7 @@ export default function ActividadPage() {
         </div>
       ) : (
         <Card padding="md">
-          {dayTasks.map((t) => <TaskRow key={t.id} task={t} />)}
+          {dayTasks.map((t) => <TaskRow key={t.id} task={t} clientName={clientNameOf(t)} />)}
         </Card>
       )}
     </div>

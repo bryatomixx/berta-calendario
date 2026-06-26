@@ -2,13 +2,14 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { X } from 'lucide-react';
-import { CATEGORIES, PRIORITIES, PRIORITY_LABELS, STATUSES, STATUS_LABELS } from '@/lib/constants';
+import { PRIORITIES, PRIORITY_LABELS, STATUSES, STATUS_LABELS } from '@/lib/constants';
 import { validateTask, type ValidationErrors } from '@/lib/validation';
 import { addTask, updateTask } from '@/lib/db/tasks';
 import { getProjects } from '@/lib/db/projects';
+import { getClients, addClient } from '@/lib/db/clients';
 import { Button } from '@/components/ui/Button';
 import { Card } from '@/components/ui/Card';
-import type { Member, Project, Task, TaskInput } from '@/lib/types';
+import type { Cliente, Member, Project, Task, TaskInput } from '@/lib/types';
 
 interface TaskModalProps {
   open: boolean;
@@ -49,10 +50,10 @@ export function TaskModal({
   const [form, setForm] = useState<TaskInput>(() => ({
     title:       task?.title ?? '',
     description: task?.description ?? '',
-    category:    task?.category ?? 'Contabilidad',
     status:      task?.status ?? 'pendiente',
     priority:    task?.priority ?? 'media',
     member_id:   task?.member_id ?? defaultMemberId,
+    client_id:   task?.client_id ?? null,
     hours:       task?.hours ?? null,
     task_date:   task?.task_date ?? today(),
     position:    task?.position ?? 0,
@@ -62,11 +63,22 @@ export function TaskModal({
   const [saving, setSaving] = useState(false);
   const [saveError, setSaveError] = useState('');
   const [projects, setProjects] = useState<Project[]>([]);
+  const [clients, setClients] = useState<Cliente[]>([]);
+  /* Modo del selector de cliente: elegir uno existente o crear uno nuevo */
+  const [clientMode, setClientMode] = useState<'select' | 'new'>('select');
+  const [newClientName, setNewClientName] = useState('');
 
   /* Carga los proyectos activos para el selector */
   useEffect(() => {
     getProjects()
       .then((all) => setProjects(all.filter((p) => p.status === 'activo')))
+      .catch(() => { /* silencioso: el selector quedara vacio */ });
+  }, []);
+
+  /* Carga los clientes para asignar la tarea */
+  useEffect(() => {
+    getClients()
+      .then(setClients)
       .catch(() => { /* silencioso: el selector quedara vacio */ });
   }, []);
 
@@ -101,9 +113,15 @@ export function TaskModal({
     setSaving(true);
     setSaveError('');
     try {
+      let payload = form;
+      // Si Berta escribio un cliente nuevo, se crea primero y se usa su id.
+      if (clientMode === 'new' && newClientName.trim()) {
+        const nuevo = await addClient(newClientName);
+        payload = { ...form, client_id: nuevo.id };
+      }
       const saved = task
-        ? await updateTask(task.id, form)
-        : await addTask(form);
+        ? await updateTask(task.id, payload)
+        : await addTask(payload);
       onSaved(saved);
     } catch {
       setSaveError('No se pudo guardar. Intenta de nuevo. Si el error persiste, recarga la pagina.');
@@ -173,16 +191,44 @@ export function TaskModal({
               </select>
             </Field>
 
-            <Field label="Categoria" error={errors.category}>
-              <select
-                value={form.category}
-                onChange={(e) => set('category', e.target.value as TaskInput['category'])}
-                className={inputCls}
-              >
-                {CATEGORIES.map((c) => (
-                  <option key={c} value={c}>{c}</option>
-                ))}
-              </select>
+            <Field label="Cliente">
+              {clientMode === 'select' ? (
+                <select
+                  value={form.client_id ?? ''}
+                  onChange={(e) => {
+                    const v = e.target.value;
+                    if (v === '__new__') {
+                      setClientMode('new');
+                      return;
+                    }
+                    set('client_id', v === '' ? null : v);
+                  }}
+                  className={inputCls}
+                >
+                  <option value="">Sin cliente (interno)</option>
+                  <option value="__new__">+ Crear cliente nuevo…</option>
+                  {clients.map((c) => (
+                    <option key={c.id} value={c.id}>{c.nombre}</option>
+                  ))}
+                </select>
+              ) : (
+                <div className="flex items-center gap-1.5">
+                  <input
+                    autoFocus
+                    value={newClientName}
+                    onChange={(e) => setNewClientName(e.target.value)}
+                    placeholder="Nombre del cliente nuevo"
+                    className={inputCls}
+                  />
+                  <button
+                    type="button"
+                    onClick={() => { setClientMode('select'); setNewClientName(''); }}
+                    className="shrink-0 text-xs text-[var(--color-text-muted)] hover:text-[var(--color-text-primary)] px-1"
+                  >
+                    Cancelar
+                  </button>
+                </div>
+              )}
             </Field>
 
             <Field label="Estado">

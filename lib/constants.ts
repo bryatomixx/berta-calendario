@@ -1,33 +1,9 @@
-// Categorias de trabajo de una asesoria contable.
-export const CATEGORIES = [
-  'Contabilidad',
-  'Impuestos',
-  'Nómina',
-  'Facturación',
-  'Trámites',
-  'Auditoría',
-  'Reunión',
-  'Otro',
-] as const;
-
 export const STATUSES = ['pendiente', 'en_proceso', 'hecho'] as const;
 
 export const STATUS_LABELS: Record<(typeof STATUSES)[number], string> = {
   pendiente: 'Pendiente',
   en_proceso: 'En proceso',
   hecho: 'Hecho',
-};
-
-// Tailwind classes for each category badge (background + text).
-export const CATEGORY_COLORS: Record<(typeof CATEGORIES)[number], string> = {
-  Contabilidad: 'bg-blue-100 text-blue-800',
-  Impuestos: 'bg-rose-100 text-rose-800',
-  Nómina: 'bg-purple-100 text-purple-800',
-  Facturación: 'bg-cyan-100 text-cyan-800',
-  Trámites: 'bg-amber-100 text-amber-800',
-  Auditoría: 'bg-emerald-100 text-emerald-800',
-  Reunión: 'bg-violet-100 text-violet-800',
-  Otro: 'bg-gray-100 text-gray-800',
 };
 
 // Roles del equipo. Berta es admin (crea y asigna); las trabajadoras ejecutan.

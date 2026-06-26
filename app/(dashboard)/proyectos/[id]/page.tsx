@@ -3,11 +3,12 @@
 import { use, useCallback, useEffect, useState } from 'react';
 import Link from 'next/link';
 import {
-  Timer, CircleCheck, CircleDot, Clock, FolderKanban,
+  Timer, CircleCheck, CircleDot, Clock, FolderKanban, Building2,
 } from 'lucide-react';
 import { getProjects, updateProject } from '@/lib/db/projects';
 import { getTasks } from '@/lib/db/tasks';
 import { getMembers } from '@/lib/db/members';
+import { getClients } from '@/lib/db/clients';
 import { STATUS_LABELS, STATUSES } from '@/lib/constants';
 import { PageHeader } from '@/components/ui/PageHeader';
 import { Button } from '@/components/ui/Button';
@@ -17,9 +18,8 @@ import { SectionTitle } from '@/components/ui/SectionTitle';
 import { EmptyState } from '@/components/ui/EmptyState';
 import { Skeleton } from '@/components/ui/Skeleton';
 import { Avatar } from '@/components/Avatar';
-import { CategoryBadge } from '@/components/CategoryBadge';
 import { PriorityBadge } from '@/components/PriorityBadge';
-import type { Member, Project, Task } from '@/lib/types';
+import type { Cliente, Member, Project, Task } from '@/lib/types';
 
 /* Formato de fecha legible */
 function fmtDate(iso: string): string {
@@ -64,9 +64,10 @@ function DetailSkeleton() {
 interface TaskRowProps {
   task:   Task;
   member: Member | undefined;
+  clientName?: string;
 }
 
-function TaskRow({ task, member }: TaskRowProps) {
+function TaskRow({ task, member, clientName }: TaskRowProps) {
   return (
     <div className="flex gap-3 items-start py-3 border-b border-[var(--color-border-soft)] last:border-b-0">
       <div className="flex-1 min-w-0">
@@ -84,7 +85,12 @@ function TaskRow({ task, member }: TaskRowProps) {
               Sin asignar
             </span>
           )}
-          <CategoryBadge category={task.category} />
+          {clientName && (
+            <span className="inline-flex items-center gap-1 max-w-[160px] rounded-full bg-teal-50 px-2 py-0.5 text-[11px] font-semibold text-teal-700">
+              <Building2 className="w-3 h-3 shrink-0" aria-hidden="true" />
+              <span className="truncate">{clientName}</span>
+            </span>
+          )}
           <PriorityBadge priority={task.priority} variant="chip" />
         </div>
       </div>
@@ -126,16 +132,18 @@ export default function ProyectoDetailPage({
   const [project, setProject] = useState<Project | null>(null);
   const [tasks, setTasks]     = useState<Task[]>([]);
   const [members, setMembers] = useState<Member[]>([]);
+  const [clients, setClients] = useState<Cliente[]>([]);
   const [loading, setLoading] = useState(true);
   const [toggling, setToggling] = useState(false);
 
   const load = useCallback(() => {
     setLoading(true);
-    Promise.all([getProjects(), getTasks(), getMembers()])
-      .then(([allProjects, allTasks, allMembers]) => {
+    Promise.all([getProjects(), getTasks(), getMembers(), getClients()])
+      .then(([allProjects, allTasks, allMembers, allClients]) => {
         setProject(allProjects.find((p) => p.id === id) ?? null);
         setTasks(allTasks.filter((t) => t.project_id === id));
         setMembers(allMembers);
+        setClients(allClients);
       })
       .finally(() => setLoading(false));
   }, [id]);
@@ -176,6 +184,7 @@ export default function ProyectoDetailPage({
 
   /* Calculos */
   const memberById = new Map(members.map((m) => [m.id, m]));
+  const clientById = new Map(clients.map((c) => [c.id, c]));
 
   const total      = tasks.length;
   const done       = tasks.filter((t) => t.status === 'hecho').length;
@@ -288,6 +297,7 @@ export default function ProyectoDetailPage({
                       key={task.id}
                       task={task}
                       member={task.member_id ? memberById.get(task.member_id) : undefined}
+                      clientName={task.client_id ? clientById.get(task.client_id)?.nombre : undefined}
                     />
                   ))}
                 </Card>

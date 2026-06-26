@@ -14,12 +14,13 @@ import {
 import { useDroppable } from '@dnd-kit/core';
 import { Circle, CircleDot, CircleCheck, Inbox } from 'lucide-react';
 import { STATUSES, STATUS_LABELS } from '@/lib/constants';
-import type { Member, Role, Status, Task } from '@/lib/types';
+import type { Cliente, Member, Role, Status, Task } from '@/lib/types';
 import { TaskCard } from './TaskCard';
 
 interface BoardProps {
   tasks: Task[];
   members: Member[];
+  clients: Cliente[];
   /** Id del miembro actual; usado para el gating de rol */
   currentMemberId: string | null;
   /** Rol del miembro actual */
@@ -31,12 +32,14 @@ interface BoardProps {
 export function Board({
   tasks,
   members,
+  clients,
   currentMemberId,
   currentRole,
   onCardClick,
   onDrop,
 }: BoardProps) {
   const memberById = new Map(members.map((m) => [m.id, m]));
+  const clientById = new Map(clients.map((c) => [c.id, c]));
   const sensors = useSensors(
     useSensor(PointerSensor, { activationConstraint: { distance: 5 } }),
   );
@@ -91,6 +94,7 @@ export function Board({
             status={status}
             items={column(status)}
             memberById={memberById}
+            clientById={clientById}
             isInteractive={isInteractive}
             onCardClick={onCardClick}
           />
@@ -104,6 +108,7 @@ interface DroppableColumnProps {
   status: Status;
   items: Task[];
   memberById: Map<string, Member>;
+  clientById: Map<string, Cliente>;
   isInteractive: (task: Task) => boolean;
   onCardClick: (task: Task) => void;
 }
@@ -154,6 +159,7 @@ function DroppableColumn({
   status,
   items,
   memberById,
+  clientById,
   isInteractive,
   onCardClick,
 }: DroppableColumnProps) {
@@ -187,6 +193,7 @@ function DroppableColumn({
                 key={task.id}
                 task={task}
                 member={task.member_id ? memberById.get(task.member_id) : undefined}
+                clientName={task.client_id ? clientById.get(task.client_id)?.nombre : undefined}
                 onClick={() => { if (interactive) onCardClick(task); }}
                 interactive={interactive}
               />

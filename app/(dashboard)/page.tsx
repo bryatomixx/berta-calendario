@@ -4,13 +4,16 @@ import { useEffect, useMemo, useState } from 'react';
 import { Clock, CircleCheck, Timer, Users, Plus, Inbox } from 'lucide-react';
 import { getTasks, updateTask } from '@/lib/db/tasks';
 import { getMembers } from '@/lib/db/members';
+import { getClients } from '@/lib/db/clients';
 import { useCurrentMember } from '@/hooks/useCurrentMember';
 import { needsHoursPrompt, reorderTasks } from '@/lib/board';
+import { reportByMember, reportByClient } from '@/lib/reports';
 import { PRIORITIES, PRIORITY_LABELS } from '@/lib/constants';
-import type { Member, Priority, Role, Status, Task } from '@/lib/types';
+import type { Cliente, Member, Priority, Role, Status, Task } from '@/lib/types';
 import { Board } from '@/components/Board';
 import { TaskModal } from '@/components/TaskModal';
 import { HoursPrompt } from '@/components/HoursPrompt';
+import { HoursPanel } from '@/components/HoursPanel';
 import { PageHeader } from '@/components/ui/PageHeader';
 import { Button } from '@/components/ui/Button';
 import { StatCard } from '@/components/ui/StatCard';
@@ -57,6 +60,7 @@ export default function BoardPage() {
   const { memberId } = useCurrentMember();
   const [tasks, setTasks] = useState<Task[]>([]);
   const [members, setMembers] = useState<Member[]>([]);
+  const [clients, setClients] = useState<Cliente[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
 
@@ -85,10 +89,11 @@ export default function BoardPage() {
   function load() {
     setLoading(true);
     setError('');
-    Promise.all([getTasks(), getMembers()])
-      .then(([t, m]) => {
+    Promise.all([getTasks(), getMembers(), getClients()])
+      .then(([t, m, c]) => {
         setTasks(t);
         setMembers(m);
+        setClients(c);
       })
       .catch(() => setError('No pudimos cargar el tablero. Verifica tu conexion.'))
       .finally(() => setLoading(false));
@@ -125,6 +130,19 @@ export default function BoardPage() {
   const kpiCompletadasMes = tasks.filter(
     (t) => t.status === 'hecho' && t.task_date.slice(0, 7) === month,
   ).length;
+
+  /* Horas del mes desglosadas por trabajadora y por cliente */
+  const monthTasks = tasks.filter((t) => t.task_date.slice(0, 7) === month);
+  const rowsByMember = reportByMember(monthTasks);
+  const rowsByClient = reportByClient(monthTasks);
+  const memberName = (id: string) =>
+    id === 'sin-responsable'
+      ? 'Sin asignar'
+      : members.find((m) => m.id === id)?.name ?? 'Sin asignar';
+  const clientName = (id: string) =>
+    id === 'sin-cliente'
+      ? 'Interno / sin cliente'
+      : clients.find((c) => c.id === id)?.nombre ?? 'Cliente';
 
   function handleSaved(saved: Task) {
     setTasks((prev) => {
@@ -321,6 +339,7 @@ export default function BoardPage() {
       <Board
         tasks={visibleTasks}
         members={members}
+        clients={clients}
         currentMemberId={memberId}
         currentRole={currentRole}
         onCardClick={(task) => {
@@ -331,6 +350,17 @@ export default function BoardPage() {
         }}
         onDrop={handleDrop}
       />
+
+      {/* Horas del equipo este mes: total (KPI arriba) + por trabajadora + por cliente */}
+      <div className="mt-8">
+        <h2 className="text-sm font-bold text-[var(--color-text-primary)] mb-3">
+          Horas del equipo · este mes
+        </h2>
+        <div className="grid grid-cols-2 gap-5">
+          <HoursPanel title="Por trabajadora" rows={rowsByMember} labelOf={memberName} />
+          <HoursPanel title="Por cliente" rows={rowsByClient} labelOf={clientName} />
+        </div>
+      </div>
 
       {/* Modal de creacion/edicion: solo admin puede abrirlo */}
       {isAdmin && modalOpen && (

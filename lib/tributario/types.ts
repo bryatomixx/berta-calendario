@@ -5,13 +5,16 @@ export type CalculoVencimiento = "ultimo_1" | "ultimo_2";
 export interface Cliente {
   id: string;
   nombre: string;
-  nit: string;
-  digitoVerificacion: string;
-  tipoPersona: TipoPersona;
-  regimenIva: RegimenIva;
+  // Datos tributarios opcionales: un cliente creado al asignar una tarea puede
+  // ser "solo nombre"; se completan despues en la seccion Clientes si hace falta.
+  nit?: string;
+  digitoVerificacion?: string;
+  tipoPersona?: TipoPersona;
+  regimenIva?: RegimenIva;
+  // Siempre un arreglo (vacio para clientes solo-nombre = sin vencimientos DIAN).
   obligacionesActivas: string[];
-  email: string;
-  telefono: string;
+  email?: string;
+  telefono?: string;
   notas?: string;
 }
 

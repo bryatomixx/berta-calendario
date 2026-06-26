@@ -1,9 +1,8 @@
 import { Ticket } from 'lucide-react';
-import { CATEGORY_COLORS } from '@/lib/constants';
-import type { Category, Status } from '@/lib/types';
+import type { Status } from '@/lib/types';
 
-type BadgeVariant = 'category' | 'status' | 'source';
-type BadgeValue   = Category | Status | 'cliente' | 'agencia';
+type BadgeVariant = 'status' | 'source';
+type BadgeValue   = Status | 'cliente' | 'agencia';
 
 interface BadgeProps {
   variant: BadgeVariant;
@@ -38,11 +37,6 @@ export function Badge({ variant, value, size = 'xs' }: BadgeProps) {
         Cliente
       </span>
     );
-  }
-
-  if (variant === 'category') {
-    const colorClass = CATEGORY_COLORS[value as Category] ?? 'bg-slate-100 text-slate-600';
-    return <span className={`${base} ${colorClass}`}>{value}</span>;
   }
 
   if (variant === 'status') {

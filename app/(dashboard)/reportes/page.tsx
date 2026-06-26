@@ -4,9 +4,10 @@ import { useEffect, useMemo, useState } from 'react';
 import { CalendarDays, BarChart2 } from 'lucide-react';
 import { getTasks } from '@/lib/db/tasks';
 import { getMembers } from '@/lib/db/members';
+import { getClients } from '@/lib/db/clients';
 import {
   filterByDateRange,
-  reportByCategory,
+  reportByClient,
   reportByMember,
   type ReportRow,
 } from '@/lib/reports';
@@ -14,7 +15,7 @@ import { PageHeader } from '@/components/ui/PageHeader';
 import { Card } from '@/components/ui/Card';
 import { EmptyState } from '@/components/ui/EmptyState';
 import { Skeleton } from '@/components/ui/Skeleton';
-import type { Member, Task } from '@/lib/types';
+import type { Cliente, Member, Task } from '@/lib/types';
 
 /* ---- Helpers de fecha ---- */
 function firstOfMonth(): string {
@@ -139,15 +140,17 @@ function ReportPanel({ title, rows, labelOf }: ReportPanelProps) {
 export default function ReportsPage() {
   const [tasks, setTasks]     = useState<Task[]>([]);
   const [members, setMembers] = useState<Member[]>([]);
+  const [clients, setClients] = useState<Cliente[]>([]);
   const [loading, setLoading] = useState(true);
   const [from, setFrom]       = useState(firstOfMonth());
   const [to, setTo]           = useState(todayStr());
 
   useEffect(() => {
-    Promise.all([getTasks(), getMembers()])
-      .then(([t, m]) => {
+    Promise.all([getTasks(), getMembers(), getClients()])
+      .then(([t, m, c]) => {
         setTasks(t);
         setMembers(m);
+        setClients(c);
       })
       .finally(() => setLoading(false));
   }, []);
@@ -163,6 +166,11 @@ export default function ReportsPage() {
   const memberName = (id: string) => {
     if (id === 'sin-responsable') return 'Sin asignar';
     return members.find((m) => m.id === id)?.name ?? 'Sin asignar';
+  };
+
+  const clientName = (id: string) => {
+    if (id === 'sin-cliente') return 'Interno / sin cliente';
+    return clients.find((c) => c.id === id)?.nombre ?? 'Cliente';
   };
 
   if (loading) {
@@ -222,12 +230,12 @@ export default function ReportsPage() {
         </div>
       </div>
 
-      {/* Paneles: por categoria y por persona */}
+      {/* Paneles: por cliente y por persona */}
       <div className="grid grid-cols-2 gap-5">
         <ReportPanel
-          title="Por categoria"
-          rows={reportByCategory(ranged)}
-          labelOf={(k) => k}
+          title="Por cliente"
+          rows={reportByClient(ranged)}
+          labelOf={clientName}
         />
         <ReportPanel
           title="Por persona"

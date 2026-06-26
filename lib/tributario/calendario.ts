@@ -42,6 +42,8 @@ function fechaParaVencimiento(
   obligacion: Obligacion,
   vencimiento: Vencimiento
 ): Date | null {
+  // Un cliente sin NIT (creado solo con nombre) no genera vencimientos DIAN.
+  if (!cliente.nit) return null;
   const clave = obtenerDigitoClave(cliente.nit, obligacion.calculo);
   const dia = vencimiento.fechas[clave];
   if (dia === undefined) return null;

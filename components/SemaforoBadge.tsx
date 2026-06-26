@@ -2,45 +2,40 @@ import type { EstadoSemaforo } from "@/lib/tributario/types";
 
 const STYLES: Record<
   EstadoSemaforo,
-  { dot: string; text: string; bg: string; ring: string; label: string; pulse: boolean }
+  { dot: string; chipBg: string; chipText: string; label: string; pulse: boolean }
 > = {
   al_dia: {
-    dot: "bg-sage",
-    text: "text-sage",
-    bg: "bg-sage-soft",
-    ring: "ring-sage/20",
-    label: "Al día",
+    dot: "bg-emerald-500",
+    chipBg: "bg-emerald-100",
+    chipText: "text-emerald-700",
+    label: "Al dia",
     pulse: false,
   },
   proximo: {
-    dot: "bg-amber-deep",
-    text: "text-amber-deep",
-    bg: "bg-amber-soft",
-    ring: "ring-amber-deep/20",
-    label: "Próximo",
+    dot: "bg-amber-500",
+    chipBg: "bg-amber-100",
+    chipText: "text-amber-700",
+    label: "Proximo",
     pulse: false,
   },
   urgente: {
-    dot: "bg-rust",
-    text: "text-rust",
-    bg: "bg-rust-soft",
-    ring: "ring-rust/20",
+    dot: "bg-orange-500",
+    chipBg: "bg-orange-100",
+    chipText: "text-orange-700",
     label: "Urgente",
     pulse: false,
   },
   vence_hoy: {
-    dot: "bg-crimson",
-    text: "text-crimson",
-    bg: "bg-crimson-soft",
-    ring: "ring-crimson/20",
+    dot: "bg-rose-600",
+    chipBg: "bg-rose-100",
+    chipText: "text-rose-700",
     label: "Vence hoy",
     pulse: true,
   },
   vencido: {
-    dot: "bg-graphite",
-    text: "text-graphite",
-    bg: "bg-graphite-soft",
-    ring: "ring-graphite/20",
+    dot: "bg-rose-700",
+    chipBg: "bg-rose-100",
+    chipText: "text-rose-700",
     label: "Vencido",
     pulse: false,
   },
@@ -73,10 +68,10 @@ export function SemaforoBadge({
 
   return (
     <span
-      className={`inline-flex items-center rounded-full ring-1 ${s.bg} ${s.text} ${s.ring} ${sizeClasses} font-medium tabular`}
+      className={`inline-flex items-center rounded-[var(--radius-full)] ${s.chipBg} ${s.chipText} ${sizeClasses} font-medium tabular-nums`}
     >
       <span
-        className={`h-1.5 w-1.5 rounded-full ${s.dot} ${s.pulse ? "dot-pulse" : ""}`}
+        className={`h-1.5 w-1.5 rounded-full shrink-0 ${s.dot} ${s.pulse ? "animate-dot-pulse" : ""}`}
       />
       <span>{s.label}</span>
       <span className="opacity-60">·</span>
@@ -89,7 +84,7 @@ export function SemaforoDot({ estado }: { estado: EstadoSemaforo }) {
   const s = STYLES[estado];
   return (
     <span
-      className={`inline-block h-2 w-2 rounded-full ${s.dot} ${s.pulse ? "dot-pulse" : ""}`}
+      className={`inline-block h-2 w-2 rounded-full shrink-0 ${s.dot} ${s.pulse ? "animate-dot-pulse" : ""}`}
     />
   );
 }

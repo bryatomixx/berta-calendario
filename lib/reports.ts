@@ -18,12 +18,18 @@ function aggregate(tasks: Task[], keyOf: (t: Task) => string): ReportRow[] {
   return [...rows.values()].sort((a, b) => b.hours - a.hours);
 }
 
-export function reportByCategory(tasks: Task[]): ReportRow[] {
-  return aggregate(tasks, (t) => t.category);
-}
-
 export function reportByMember(tasks: Task[]): ReportRow[] {
   return aggregate(tasks, (t) => t.member_id ?? 'sin-responsable');
+}
+
+/** Horas y tareas agrupadas por cliente. Las internas caen en 'sin-cliente'. */
+export function reportByClient(tasks: Task[]): ReportRow[] {
+  return aggregate(tasks, (t) => t.client_id ?? 'sin-cliente');
+}
+
+/** Suma total de horas registradas en las tareas dadas. */
+export function totalHours(tasks: Task[]): number {
+  return tasks.reduce((sum, t) => sum + (t.hours ?? 0), 0);
 }
 
 /** Inclusive range filter. Dates are 'YYYY-MM-DD' strings (lexically ordered). */

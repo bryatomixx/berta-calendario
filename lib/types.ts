@@ -1,10 +1,13 @@
-import { CATEGORIES, STATUSES, PRIORITIES, PROJECT_STATUSES, ROLES } from './constants';
+import { STATUSES, PRIORITIES, PROJECT_STATUSES, ROLES } from './constants';
 
-export type Category = (typeof CATEGORIES)[number];
 export type Status = (typeof STATUSES)[number];
 export type Priority = (typeof PRIORITIES)[number];
 export type ProjectStatus = (typeof PROJECT_STATUSES)[number];
 export type Role = (typeof ROLES)[number];
+
+// El cliente es la unidad por la que se asigna trabajo y se acumulan horas.
+// Es el mismo modelo de la seccion Tributario (un solo store de clientes).
+export type { Cliente, Cliente as Client } from './tributario/types';
 
 export interface Member {
   id: string;
@@ -29,11 +32,13 @@ export interface Task {
   id: string;
   title: string;
   description: string | null;
-  category: Category;
   status: Status;
   priority: Priority;
   // member_id = la persona a la que la tarea esta asignada.
   member_id: string | null;
+  // client_id = el cliente al que pertenece el trabajo (null = tarea interna).
+  // Las horas de la tarea se acumulan a este cliente en los reportes.
+  client_id: string | null;
   hours: number | null;
   task_date: string;
   position: number;
@@ -43,14 +48,14 @@ export interface Task {
 }
 
 // Forma del formulario de crear/editar (solo admin). El admin siempre elige a
-// quien asignar, por eso member_id es obligatorio aqui.
+// quien asignar, por eso member_id es obligatorio aqui. El cliente es opcional.
 export interface TaskInput {
   title: string;
   description: string;
-  category: Category;
   status: Status;
   priority: Priority;
   member_id: string;
+  client_id: string | null;
   hours: number | null;
   task_date: string;
   position: number;

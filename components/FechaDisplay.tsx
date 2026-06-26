@@ -9,7 +9,7 @@ const MESES_LARGO = [
 ];
 
 const DIAS_SEMANA = [
-  "domingo", "lunes", "martes", "miércoles", "jueves", "viernes", "sábado",
+  "domingo", "lunes", "martes", "miercoles", "jueves", "viernes", "sabado",
 ];
 
 export function fechaCorta(d: Date): string {
@@ -24,6 +24,10 @@ export function diaSemanaLargo(d: Date): string {
   return `${DIAS_SEMANA[d.getDay()]} ${d.getDate()} de ${MESES_LARGO[d.getMonth()]}`;
 }
 
+/**
+ * Muestra la fecha de vencimiento en estilo dashboard: numero grande + dias
+ * restantes en teal. Reemplaza la version editorial anterior (serif/terracotta).
+ */
 export function FechaGrande({
   fecha,
   diasFaltantes,
@@ -32,18 +36,20 @@ export function FechaGrande({
   diasFaltantes: number;
 }) {
   return (
-    <div className="flex items-baseline gap-3">
-      <div className="flex flex-col items-center font-serif leading-none">
-        <span className="text-[11px] tracker text-ink-muted mb-1">
+    <div className="flex items-baseline gap-4">
+      <div className="flex flex-col items-center leading-none">
+        <span className="text-[11px] font-semibold uppercase tracking-widest text-[var(--color-text-muted)] mb-1">
           {MESES_ABREV[fecha.getMonth()]}
         </span>
-        <span className="text-5xl tabular text-ink">{fecha.getDate()}</span>
+        <span className="text-5xl tabular-nums font-bold text-[var(--color-text-primary)]">
+          {fecha.getDate()}
+        </span>
       </div>
       <div className="flex flex-col">
-        <span className="serif-italic text-2xl text-terracotta tabular leading-none">
+        <span className="text-3xl tabular-nums font-bold text-teal-600 leading-none">
           {diasFaltantes === 0 ? "hoy" : `${diasFaltantes}d`}
         </span>
-        <span className="tracker text-ink-faint mt-1.5">
+        <span className="text-[11px] font-semibold uppercase tracking-widest text-[var(--color-text-muted)] mt-1.5">
           {diasFaltantes === 0 ? "vence" : "restantes"}
         </span>
       </div>

@@ -8,7 +8,6 @@ export function validateTask(input: Partial<TaskInput>): ValidationErrors {
   if (!input.title || input.title.trim() === '') {
     errors.title = 'El título es obligatorio';
   }
-  if (!input.category) errors.category = 'Selecciona una categoría';
   if (!input.member_id) errors.member_id = 'Selecciona un responsable';
   if (input.hours != null && input.hours < 0) {
     errors.hours = 'Las horas no pueden ser negativas';

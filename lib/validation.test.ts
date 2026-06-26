@@ -5,10 +5,10 @@ import type { TaskInput } from './types';
 const valid: TaskInput = {
   title: 'Conciliación bancaria',
   description: '',
-  category: 'Contabilidad',
   status: 'pendiente',
   priority: 'media',
   member_id: 'm1',
+  client_id: null,
   hours: null,
   task_date: '2026-05-21',
   position: 0,
