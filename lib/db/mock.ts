@@ -17,7 +17,7 @@ const clients: Cliente[] = (clientesData as unknown as Cliente[]).map((c) => ({ 
 
 // Berta es admin (crea y asigna). Las 4 trabajadoras ejecutan.
 const members: Member[] = [
-  { id: 'b1', name: 'Berta',      color: '#0d9488', role: 'admin',       created_at: '2026-05-01T10:00:00Z' },
+  { id: 'b1', name: 'Berta',      color: '#E71F22', role: 'admin',       created_at: '2026-05-01T10:00:00Z' },
   { id: 'w1', name: 'Luisa',      color: '#2563eb', role: 'trabajadora', created_at: '2026-05-01T10:05:00Z' },
   { id: 'w2', name: 'Naydis',     color: '#db2777', role: 'trabajadora', created_at: '2026-05-01T10:10:00Z' },
   { id: 'w3', name: 'Ginete',     color: '#9333ea', role: 'trabajadora', created_at: '2026-05-01T10:15:00Z' },
@@ -25,7 +25,7 @@ const members: Member[] = [
 ];
 
 const projects: Project[] = [
-  { id: 'pr1', name: 'Cierre contable de junio', description: 'Conciliaciones y cierre del mes.', status: 'activo', color: '#0d9488', created_at: '2026-05-28T09:00:00Z' },
+  { id: 'pr1', name: 'Cierre contable de junio', description: 'Conciliaciones y cierre del mes.', status: 'activo', color: '#E71F22', created_at: '2026-05-28T09:00:00Z' },
   { id: 'pr2', name: 'Temporada de declaraciones', description: 'Declaraciones mensuales y anuales.', status: 'activo', color: '#0891b2', created_at: '2026-05-20T09:00:00Z' },
   { id: 'pr3', name: 'Digitalizacion de archivos', description: 'Pasar expedientes fisicos a digital.', status: 'activo', color: '#16a34a', created_at: '2026-05-15T09:00:00Z' },
   { id: 'pr4', name: 'Capacitacion del equipo', description: 'Formacion en software y normativa.', status: 'activo', color: '#ea580c', created_at: '2026-05-10T09:00:00Z' },
@@ -138,7 +138,7 @@ export const mock = {
     return [...projects].sort((a, b) => a.name.localeCompare(b.name));
   },
   addProject(name: string, description: string | null = null): Project {
-    const palette = ['#0d9488', '#0891b2', '#16a34a', '#ea580c', '#db2777', '#9333ea'];
+    const palette = ['#E71F22', '#0891b2', '#16a34a', '#ea580c', '#db2777', '#9333ea'];
     const p: Project = {
       id: newId(),
       name,

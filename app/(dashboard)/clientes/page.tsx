@@ -23,7 +23,8 @@ const REGIMEN_LABEL: Record<string, string> = {
   cuatrimestral: 'Cuatrimestral',
 };
 
-const AVATAR_COLORS = ['#0d9488', '#0891b2', '#7c3aed', '#db2777', '#ea580c', '#16a34a'];
+// Avatares de cliente en gris fuerte (marca: blanco + rojo + gris).
+const AVATAR_COLORS = ['#475569', '#334155', '#64748b', '#1e293b', '#52525b', '#3f3f46'];
 
 function avatarColor(name: string): string {
   let sum = 0;

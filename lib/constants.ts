@@ -16,7 +16,7 @@ export const ROLE_LABELS: Record<(typeof ROLES)[number], string> = {
 
 // Palette assigned to members in order, for their avatars.
 export const MEMBER_COLORS = [
-  '#0d9488',
+  '#E71F22',
   '#2563eb',
   '#db2777',
   '#9333ea',
@@ -47,7 +47,7 @@ export const PROJECT_STATUSES = ['activo', 'archivado'] as const;
 
 // Paleta para el color de cada proyecto.
 export const PROJECT_COLORS = [
-  '#0d9488',
+  '#E71F22',
   '#0891b2',
   '#16a34a',
   '#ea580c',
