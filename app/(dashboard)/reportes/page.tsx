@@ -9,6 +9,7 @@ import { filterByDateRange, reportByClient, reportByMember } from '@/lib/reports
 import { PageHeader } from '@/components/ui/PageHeader';
 import { Skeleton } from '@/components/ui/Skeleton';
 import { HoursPanel } from '@/components/HoursPanel';
+import { useRequireAdmin } from '@/hooks/useRequireAdmin';
 import type { Cliente, Member, Task } from '@/lib/types';
 
 /* ---- Helpers de fecha ---- */
@@ -66,6 +67,7 @@ export default function ReportsPage() {
   const [loading, setLoading] = useState(true);
   const [from, setFrom]       = useState(firstOfMonth());
   const [to, setTo]           = useState(todayStr());
+  const { status } = useRequireAdmin();
 
   useEffect(() => {
     Promise.all([getTasks(), getMembers(), getClients()])
@@ -95,11 +97,22 @@ export default function ReportsPage() {
     return clients.find((c) => c.id === id)?.nombre ?? 'Cliente';
   };
 
-  if (loading) {
+  if (status === 'checking' || loading) {
     return (
       <div className="animate-slide-up-fade">
         <PageHeader title="Reportes" />
         <ReportSkeleton />
+      </div>
+    );
+  }
+
+  if (status === 'denied') {
+    return (
+      <div className="animate-slide-up-fade">
+        <PageHeader title="Reportes" />
+        <p className="text-sm text-[var(--color-text-muted)]">
+          Solo Berta puede ver esta sección. Redirigiendo…
+        </p>
       </div>
     );
   }

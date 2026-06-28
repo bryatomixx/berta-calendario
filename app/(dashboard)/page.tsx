@@ -304,7 +304,8 @@ export default function BoardPage() {
         }
       />
 
-      {/* Tira de 4 KPIs */}
+      {/* Tira de 4 KPIs: stats del equipo, solo admin (Berta) */}
+      {isAdmin && (
       <div className="grid grid-cols-4 gap-4 mb-6">
         <StatCard
           label="Tareas activas"
@@ -335,6 +336,7 @@ export default function BoardPage() {
           iconColor="text-emerald-600"
         />
       </div>
+      )}
 
       <Board
         tasks={visibleTasks}
@@ -351,7 +353,8 @@ export default function BoardPage() {
         onDrop={handleDrop}
       />
 
-      {/* Horas del equipo este mes: total (KPI arriba) + por trabajadora + por cliente */}
+      {/* Horas del equipo: stats solo para admin (Berta) */}
+      {isAdmin && (
       <div className="mt-8">
         <h2 className="text-sm font-bold text-[var(--color-text-primary)] mb-3">
           Horas del equipo · este mes
@@ -371,6 +374,7 @@ export default function BoardPage() {
           />
         </div>
       </div>
+      )}
 
       {/* Modal de creacion/edicion: solo admin puede abrirlo */}
       {isAdmin && modalOpen && (

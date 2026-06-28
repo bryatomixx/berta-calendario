@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
+import { useRouter } from 'next/navigation';
 import { Users, CheckCircle2, Circle, Timer } from 'lucide-react';
 import { getMembers, addMember } from '@/lib/db/members';
 import { getTasks } from '@/lib/db/tasks';
@@ -103,6 +104,7 @@ function MemberRow({ member, tasks }: MemberRowProps) {
 /* ---- Pagina principal ---- */
 export default function EquipoPage() {
   const { memberId, loaded } = useCurrentMember();
+  const router = useRouter();
 
   const [members, setMembers] = useState<Member[]>([]);
   const [tasks, setTasks]     = useState<Task[]>([]);
@@ -131,6 +133,11 @@ export default function EquipoPage() {
 
   const isAdmin = currentMember?.role === 'admin';
 
+  // Solo Berta (admin) ve el equipo y sus stats; a las demas las redirige.
+  useEffect(() => {
+    if (loaded && !loading && currentMember && !isAdmin) router.replace('/');
+  }, [loaded, loading, currentMember, isAdmin, router]);
+
   async function handleAdd() {
     const name = newName.trim();
     if (!name || adding) return;
@@ -155,6 +162,17 @@ export default function EquipoPage() {
       <div className="animate-slide-up-fade">
         <PageHeader title="Equipo" />
         <TeamSkeleton />
+      </div>
+    );
+  }
+
+  if (!isAdmin) {
+    return (
+      <div className="animate-slide-up-fade">
+        <PageHeader title="Equipo" />
+        <p className="text-sm text-[var(--color-text-muted)]">
+          Solo Berta puede ver esta sección. Redirigiendo…
+        </p>
       </div>
     );
   }
