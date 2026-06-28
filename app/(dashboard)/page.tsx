@@ -357,8 +357,18 @@ export default function BoardPage() {
           Horas del equipo · este mes
         </h2>
         <div className="grid grid-cols-2 gap-5">
-          <HoursPanel title="Por trabajadora" rows={rowsByMember} labelOf={memberName} />
-          <HoursPanel title="Por cliente" rows={rowsByClient} labelOf={clientName} />
+          <HoursPanel
+            title="Por trabajadora"
+            rows={rowsByMember}
+            labelOf={memberName}
+            secondaryOf={(t) => (t.client_id ? clientName(t.client_id) : 'Interno')}
+          />
+          <HoursPanel
+            title="Por cliente"
+            rows={rowsByClient}
+            labelOf={clientName}
+            secondaryOf={(t) => (t.member_id ? memberName(t.member_id) : 'Sin asignar')}
+          />
         </div>
       </div>
 

@@ -4,15 +4,18 @@ export interface ReportRow {
   key: string;
   hours: number;
   taskCount: number;
+  // Las tareas que componen la fila (para poder desplegar el detalle).
+  tasks: Task[];
 }
 
 function aggregate(tasks: Task[], keyOf: (t: Task) => string): ReportRow[] {
   const rows = new Map<string, ReportRow>();
   for (const t of tasks) {
     const key = keyOf(t);
-    const row = rows.get(key) ?? { key, hours: 0, taskCount: 0 };
+    const row = rows.get(key) ?? { key, hours: 0, taskCount: 0, tasks: [] };
     row.hours += t.hours ?? 0;
     row.taskCount += 1;
+    row.tasks.push(t);
     rows.set(key, row);
   }
   return [...rows.values()].sort((a, b) => b.hours - a.hours);

@@ -1,20 +1,14 @@
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
-import { CalendarDays, BarChart2 } from 'lucide-react';
+import { CalendarDays } from 'lucide-react';
 import { getTasks } from '@/lib/db/tasks';
 import { getMembers } from '@/lib/db/members';
 import { getClients } from '@/lib/db/clients';
-import {
-  filterByDateRange,
-  reportByClient,
-  reportByMember,
-  type ReportRow,
-} from '@/lib/reports';
+import { filterByDateRange, reportByClient, reportByMember } from '@/lib/reports';
 import { PageHeader } from '@/components/ui/PageHeader';
-import { Card } from '@/components/ui/Card';
-import { EmptyState } from '@/components/ui/EmptyState';
 import { Skeleton } from '@/components/ui/Skeleton';
+import { HoursPanel } from '@/components/HoursPanel';
 import type { Cliente, Member, Task } from '@/lib/types';
 
 /* ---- Helpers de fecha ---- */
@@ -61,78 +55,6 @@ function ReportSkeleton() {
         ))}
       </div>
     </div>
-  );
-}
-
-/* ---- Panel de reporte ---- */
-interface ReportPanelProps {
-  title:   string;
-  rows:    ReportRow[];
-  labelOf: (key: string) => string;
-}
-
-function ReportPanel({ title, rows, labelOf }: ReportPanelProps) {
-  const totalHours = rows.reduce((s, r) => s + r.hours, 0);
-  const maxHours   = rows.length > 0 ? Math.max(...rows.map((r) => r.hours)) : 0;
-
-  return (
-    <Card variant="default" padding="none">
-      {/* Encabezado del panel */}
-      <div className="px-5 py-4 border-b border-[var(--color-border-soft)]">
-        <h2 className="text-xs font-bold uppercase tracking-widest text-[var(--color-text-muted)]">
-          {title}
-        </h2>
-      </div>
-
-      {/* Filas */}
-      <div className="divide-y divide-[var(--color-border-soft)]">
-        {rows.length === 0 ? (
-          <EmptyState
-            icon={BarChart2}
-            title="Sin actividad en este periodo."
-          />
-        ) : (
-          rows.map((r) => {
-            const pct = maxHours > 0 ? Math.round((r.hours / maxHours) * 100) : 0;
-            const label = labelOf(r.key);
-            return (
-              <div
-                key={r.key}
-                className="px-5 py-3 flex items-center gap-3 hover:bg-[var(--color-surface-2)] transition-colors duration-[var(--duration-fast)]"
-              >
-                <span className="flex-1 text-sm font-medium text-[var(--color-text-primary)] truncate">
-                  {label}
-                </span>
-                {/* Mini barra proporcional */}
-                <div className="w-20 h-1.5 bg-[var(--color-surface-2)] rounded-full overflow-hidden shrink-0">
-                  <div
-                    className="h-full bg-teal-400 rounded-full transition-[width] duration-500 ease-out"
-                    style={{ width: `${pct}%` }}
-                    role="presentation"
-                  />
-                </div>
-                <span className="text-xs tabular-nums font-bold text-[var(--color-text-secondary)] w-10 text-right shrink-0">
-                  {r.hours} h
-                </span>
-                <span className="text-xs text-[var(--color-text-muted)] w-6 text-right shrink-0">
-                  {r.taskCount}
-                </span>
-              </div>
-            );
-          })
-        )}
-      </div>
-
-      {/* Footer total */}
-      {rows.length > 0 && (
-        <div className="px-5 py-3 border-t border-[var(--color-border)] bg-slate-50/60 flex justify-between items-center">
-          <span className="text-xs font-bold text-[var(--color-text-secondary)]">Total</span>
-          <span className="text-xs font-bold tabular-nums text-[var(--color-text-primary)]">
-            {totalHours} h
-          </span>
-        </div>
-      )}
-    </Card>
   );
 }
 
@@ -230,17 +152,19 @@ export default function ReportsPage() {
         </div>
       </div>
 
-      {/* Paneles: por cliente y por persona */}
+      {/* Paneles desplegables: por cliente y por persona */}
       <div className="grid grid-cols-2 gap-5">
-        <ReportPanel
+        <HoursPanel
           title="Por cliente"
           rows={reportByClient(ranged)}
           labelOf={clientName}
+          secondaryOf={(t) => (t.member_id ? memberName(t.member_id) : 'Sin asignar')}
         />
-        <ReportPanel
+        <HoursPanel
           title="Por persona"
           rows={reportByMember(ranged)}
           labelOf={memberName}
+          secondaryOf={(t) => (t.client_id ? clientName(t.client_id) : 'Interno')}
         />
       </div>
     </div>
