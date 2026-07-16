@@ -36,6 +36,10 @@ const C = {
   rose: '#FB7185',
 };
 
+// Paleta categorica DISTINGUIBLE para donas multi-categoria (no todos rojos):
+// rojo de marca para el dominante, luego grafito / ambar / teal.
+const CAT = ['#E71F22', '#334155', '#D97706', '#0D9488'];
+
 /* ---------- Derivados (data estatica a nivel de modulo) ---------- */
 const nf = new Intl.NumberFormat('es-CO', { maximumFractionDigits: 0 });
 const fmtNum = (n: number | null | undefined): string => (n == null ? '·' : nf.format(n));
@@ -147,7 +151,7 @@ function ResumenTab() {
           f.concepto.toLowerCase().startsWith(k),
         ) && (f.total ?? 0) > 0,
     )
-    .map((f, i) => ({ label: cap(f.concepto), value: f.total ?? 0, color: [C.brand, C.b1, C.b2, C.b3][i % 4] }));
+    .map((f, i) => ({ label: cap(f.concepto), value: f.total ?? 0, color: CAT[i % 4] }));
 
   return (
     <div className="space-y-6">
@@ -258,7 +262,7 @@ function VisionTab() {
   const totalIng = filas.find((f) => f.concepto.toLowerCase().startsWith('total ingresos'))?.total ?? 0;
   const ingresos = filas
     .filter((f) => ['empezar', 'crear', 'obtener', 'noche'].some((k) => f.concepto.toLowerCase().startsWith(k)))
-    .map((f, i) => ({ label: cap(f.concepto), value: f.total ?? 0, color: [C.brand, C.b1, C.b2, C.b3][i % 4] }));
+    .map((f, i) => ({ label: cap(f.concepto), value: f.total ?? 0, color: CAT[i % 4] }));
   const utilidad = filas.find((f) => f.concepto.toLowerCase().startsWith('utilidad'));
   const maxUtil = Math.max(1, ...(utilidad?.valores ?? []).map((v) => Math.abs(v || 0)));
 
@@ -310,7 +314,7 @@ function BalanceTab() {
       </div>
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        <DonutCard title="Composición del activo" subtitle="Corriente vs. no corriente" data={[{ label: 'Corriente', value: ac, color: C.brand }, { label: 'No corriente', value: anc, color: C.b3 }]} centerLabel="Activo" centerValue={fmtShort(b.totalActivo.valor)} />
+        <DonutCard title="Composición del activo" subtitle="Corriente vs. no corriente" data={[{ label: 'Corriente', value: ac, color: C.brand }, { label: 'No corriente', value: anc, color: C.slate }]} centerLabel="Activo" centerValue={fmtShort(b.totalActivo.valor)} />
         <DonutCard title="Estructura de financiación" subtitle="Cómo se financia la empresa" data={[{ label: 'Pasivo', value: pas, color: C.slate }, { label: 'Patrimonio', value: pat, color: C.emerald }]} centerLabel="Patrimonio" centerValue={pctFmt(pat / (pas + pat || 1))} />
       </div>
 
