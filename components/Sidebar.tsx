@@ -16,6 +16,7 @@ import {
   CalendarClock,
   CalendarDays,
   Building2,
+  FileBarChart2,
 } from 'lucide-react';
 import { ROLE_LABELS } from '@/lib/constants';
 import { Avatar } from './Avatar';
@@ -70,9 +71,10 @@ const ADMIN_NAV = [
 
 /* Modulo tributario: visible para todos los roles */
 const TRIBUTARIO_NAV = [
-  { href: '/vencimientos', icon: CalendarClock, label: 'Vencimientos' },
-  { href: '/calendario',   icon: CalendarDays,  label: 'Calendario' },
-  { href: '/clientes',     icon: Building2,     label: 'Clientes' },
+  { href: '/vencimientos', icon: CalendarClock,  label: 'Vencimientos' },
+  { href: '/calendario',   icon: CalendarDays,   label: 'Calendario' },
+  { href: '/clientes',     icon: Building2,      label: 'Clientes' },
+  { href: '/informes',     icon: FileBarChart2,  label: 'Informes' },
 ];
 
 /** Contenido interior del sidebar, reutilizado en desktop y en el drawer mobile. */
