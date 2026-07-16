@@ -208,10 +208,10 @@
         -20432229,
         -21453906,
         -19532592,
-        -22365594
+        -27565594
       ],
-      "total": -132372404,
-      "participacion": "-40%"
+      "total": -137572404,
+      "participacion": "-42%"
     },
     {
       "concepto": "GASTOS",
@@ -221,9 +221,9 @@
         -27898848,
         -34698770,
         -37892680,
-        -30399481
+        -32199481
       ],
-      "total": -183584892,
+      "total": -185384892,
       "participacion": "-56%"
     },
     {
@@ -234,9 +234,9 @@
         -48331077,
         -56152676,
         -57425272,
-        -52765075
+        -59765075
       ],
-      "total": -315957296,
+      "total": -322957296,
       "participacion": ""
     },
     {
@@ -247,10 +247,10 @@
         280144,
         -9423294,
         18342294,
-        5123466
+        -1876534
       ],
-      "total": 12476928,
-      "participacion": "4%"
+      "total": 5476928,
+      "participacion": "2%"
     }
   ],
   "eriVision": {
@@ -446,7 +446,7 @@
     "pasivoCorriente": [
       {
         "concepto": "Acreedores comerciales",
-        "valor": 14507264
+        "valor": 21507264
       },
       {
         "concepto": "Ingresos recibidos por anticipado",
@@ -459,7 +459,7 @@
     ],
     "totalPasivoCorriente": {
       "concepto": "Total Pasivo Corriente",
-      "valor": 109821543
+      "valor": 116821543
     },
     "totalPasivoNoCorriente": {
       "concepto": "Total Pasivo no Corriente",
@@ -467,7 +467,7 @@
     },
     "totalPasivo": {
       "concepto": "Total Pasivo",
-      "valor": 109821543
+      "valor": 116821543
     },
     "patrimonio": [
       {
@@ -480,12 +480,12 @@
       },
       {
         "concepto": "Utilidad del ejercicio",
-        "valor": 12476928
+        "valor": 5476928
       }
     ],
     "totalPatrimonio": {
       "concepto": "Total Patrimonio",
-      "valor": 83616150
+      "valor": 76616150
     },
     "totalPasivoPatrimonio": {
       "concepto": "Total pasivo y patrimonio",
@@ -500,23 +500,23 @@
       },
       {
         "concepto": "Costo de mercancía vendida",
-        "valor": -132372404
+        "valor": -137572404
       },
       {
         "concepto": "Ganancia bruta",
-        "valor": 167760063
+        "valor": 162560063
       },
       {
         "concepto": "Total utilidad bruta en operaciones",
-        "valor": 167760063
+        "valor": 162560063
       },
       {
         "concepto": "Gastos ordinarios",
-        "valor": -183584892
+        "valor": -185384892
       },
       {
         "concepto": "Utilidad operacional",
-        "valor": -15824829
+        "valor": -22824829
       },
       {
         "concepto": "Otros ingresos",
@@ -524,11 +524,11 @@
       },
       {
         "concepto": "Utilidad Antes de Impuestos",
-        "valor": 12476928
+        "valor": 5476928
       },
       {
         "concepto": "Resultado del periodo",
-        "valor": 12476928
+        "valor": 5476928
       }
     ]
   }

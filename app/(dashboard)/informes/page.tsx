@@ -482,7 +482,7 @@ function DonutCard({ title, subtitle, data, centerLabel, centerValue }: { title:
               <span className="w-3 h-3 rounded-sm shrink-0" style={{ background: d.color }} />
               <span className="flex-1 text-sm text-[var(--color-text-secondary)] truncate" title={d.label}>{d.label}</span>
               <span className="text-sm font-medium tabular-nums text-[var(--color-text-primary)]">{fmtCOP(d.value)}</span>
-              <span className="w-10 text-right text-xs text-[var(--color-text-muted)] tabular-nums">{Math.round((Math.max(0, d.value) / total) * 100)}%</span>
+              <span className="w-10 text-right text-xs text-[var(--color-text-muted)] tabular-nums">{pctSmall(d.value, total)}</span>
             </div>
           ))}
         </div>
@@ -647,4 +647,12 @@ function rowKind(c: string): 'subIn' | 'subEg' | 'result' | 'egreso' | 'item' {
 function cap(s: string): string {
   const t = s.trim().toLowerCase();
   return t.charAt(0).toUpperCase() + t.slice(1);
+}
+
+// Porcentaje para leyendas: los valores > 0 que redondean a 0% se muestran
+// como "<1%" (existe pero es muy chico para verse en la grafica).
+function pctSmall(v: number, total: number): string {
+  const p = (Math.max(0, v) / (total || 1)) * 100;
+  if (v > 0 && p < 1) return '<1%';
+  return `${Math.round(p)}%`;
 }
