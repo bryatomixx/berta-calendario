@@ -215,11 +215,11 @@ function ResultadosTab({ D }: { D: InformeAnualData }) {
               </tr>
             </thead>
             <tbody>
-              {D.resultados.filas.map((r) => {
+              {D.resultados.filas.map((r, ri) => {
                 const esTotal = /^total|^utilidad|^resultado|^ganancia/i.test(r.concepto);
                 const detalle = (r.nivel ?? 0) > 0;
                 return (
-                  <tr key={r.concepto} className={`border-t border-[var(--color-border-soft)] ${esTotal ? 'font-semibold' : ''}`}>
+                  <tr key={`${r.concepto}-${ri}`} className={`border-t border-[var(--color-border-soft)] ${esTotal ? 'font-semibold' : ''}`}>
                     <td className={`text-left py-2 pr-4 sticky left-0 bg-white whitespace-nowrap ${detalle ? 'pl-4 text-[var(--color-text-muted)] italic' : esTotal ? 'text-[var(--color-text-primary)]' : 'text-[var(--color-text-secondary)]'}`}>{r.concepto}</td>
                     {r.valores.map((v, i) => <td key={i} className={`text-right py-2 px-3 tabular-nums whitespace-nowrap ${(v ?? 0) < 0 ? 'text-rose-600' : 'text-[var(--color-text-primary)]'}`}>{fmtNum(v)}</td>)}
                   </tr>

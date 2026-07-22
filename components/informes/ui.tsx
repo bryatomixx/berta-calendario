@@ -299,11 +299,11 @@ export function MatrixTable({ columns, rows }: { columns: string[]; rows: FilaMa
           </tr>
         </thead>
         <tbody>
-          {rows.map((r) => {
+          {rows.map((r, ri) => {
             const esTotal = /^total|^utilidad/i.test(r.concepto);
             const detalle = (r.nivel ?? 0) > 0;
             return (
-              <tr key={r.concepto} className={`border-t border-[var(--color-border-soft)] ${esTotal ? 'font-semibold' : ''}`}>
+              <tr key={`${r.concepto}-${ri}`} className={`border-t border-[var(--color-border-soft)] ${esTotal ? 'font-semibold' : ''}`}>
                 <td className={`text-left py-2 pr-4 sticky left-0 bg-white whitespace-nowrap ${detalle ? 'pl-4 text-[var(--color-text-muted)] italic' : esTotal ? 'text-[var(--color-text-primary)]' : 'text-[var(--color-text-secondary)]'}`}>
                   {detalle ? cap(r.concepto) : r.concepto}
                 </td>
