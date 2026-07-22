@@ -1,10 +1,12 @@
 'use client';
 
 import { useEffect, useMemo, useState } from 'react';
+import Link from 'next/link';
 import { useParams } from 'next/navigation';
-import { FileX2 } from 'lucide-react';
+import { FileX2, FileBarChart2, ArrowRight } from 'lucide-react';
 import { getClient } from '@/lib/db/clients';
 import { obtenerVencimientosFuturos, estadoSemaforo } from '@/lib/tributario/calendario';
+import { informesDeCliente } from '@/lib/informes';
 import { PageHeader } from '@/components/ui/PageHeader';
 import { Skeleton } from '@/components/ui/Skeleton';
 import { EmptyState } from '@/components/ui/EmptyState';
@@ -113,6 +115,8 @@ export default function ClienteDetalle() {
       ? 'Persona juridica'
       : null;
 
+  const informes = informesDeCliente(cliente.id);
+
   return (
     <div className="animate-slide-up-fade">
       <PageHeader
@@ -160,6 +164,46 @@ export default function ClienteDetalle() {
             <InfoTile label="WhatsApp" value={cliente.telefono} mono />
           )}
         </div>
+      )}
+
+      {/* Informes financieros del cliente */}
+      {informes.length > 0 && (
+        <section className="mb-8">
+          <div className="flex items-center gap-3 mb-4">
+            <h2 className="text-lg font-bold tracking-tight text-[var(--color-text-primary)]">
+              Informes financieros
+            </h2>
+            <span className="text-sm tabular-nums font-semibold text-teal-600">
+              {informes.length}
+            </span>
+            <div className="flex-1 h-px bg-[var(--color-border)]" />
+          </div>
+          <ul className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {informes.map((inf) => (
+              <li key={`${inf.clienteId}-${inf.periodo}`}>
+                <Link
+                  href={`/informes?cliente=${inf.clienteId}`}
+                  className="group flex items-center gap-4 rounded-[var(--radius-xl)] bg-white border border-[var(--color-border)] shadow-card p-4 hover:shadow-card-hover hover:-translate-y-px transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-500/40"
+                >
+                  <div className="shrink-0 w-10 h-10 rounded-[var(--radius-lg)] bg-teal-50 flex items-center justify-center">
+                    <FileBarChart2 className="w-5 h-5 text-teal-600" aria-hidden="true" />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <p className="text-sm font-semibold text-[var(--color-text-primary)] group-hover:text-teal-600 transition-colors truncate">
+                      {inf.periodo}
+                    </p>
+                    <p className="text-xs text-[var(--color-text-muted)] mt-0.5">
+                      {inf.tipo === 'mensual' ? 'Informe mensual' : 'Cierre anual'}
+                      <span className="text-[var(--color-text-disabled)]"> · corte </span>
+                      {inf.corte}
+                    </p>
+                  </div>
+                  <ArrowRight className="w-4 h-4 text-[var(--color-text-muted)] group-hover:text-teal-600 group-hover:translate-x-0.5 transition-all shrink-0" aria-hidden="true" />
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
       )}
 
       {/* Timeline de vencimientos */}

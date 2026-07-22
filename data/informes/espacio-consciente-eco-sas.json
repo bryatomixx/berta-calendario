@@ -1,0 +1,1220 @@
+{
+  "clienteId": "espacio-consciente-eco-sas",
+  "empresa": "ESPACIO CONSCIENTE ECO SAS",
+  "tipo": "mensual",
+  "periodo": "Enero a junio de 2026",
+  "corte": "30 de junio de 2026",
+  "moneda": "COP",
+  "meses": [
+    "Enero",
+    "Febrero",
+    "Marzo",
+    "Abril",
+    "Mayo",
+    "Junio"
+  ],
+  "cajaBancos": {
+    "caja": {
+      "ingresos": {
+        "saldoAnterior": 55123592,
+        "meses": [
+          31716012,
+          10612453,
+          48547310,
+          55700780,
+          20820500,
+          42842250
+        ],
+        "total": 210239305,
+        "acumulado": null
+      },
+      "egresos": {
+        "saldoAnterior": null,
+        "meses": [
+          21259052,
+          19897784,
+          26804599,
+          35182649,
+          24332592,
+          25948834
+        ],
+        "total": 153425510,
+        "acumulado": null
+      },
+      "saldo": {
+        "saldoAnterior": 55123592,
+        "meses": [
+          10456960,
+          -9285331,
+          21742711,
+          20518131,
+          -3512092,
+          16893416
+        ],
+        "total": 56813795,
+        "acumulado": 111937387
+      }
+    },
+    "banco": {
+      "ingresos": {
+        "saldoAnterior": 31495614,
+        "meses": [
+          19668833,
+          23231918,
+          27153998,
+          29461536,
+          22125680,
+          31102293
+        ],
+        "total": 152744258,
+        "acumulado": null
+      },
+      "egresos": {
+        "saldoAnterior": null,
+        "meses": [
+          19748802,
+          36550195,
+          27815457,
+          26151624,
+          34218307,
+          28646327
+        ],
+        "total": 173130712,
+        "acumulado": null
+      },
+      "saldo": {
+        "saldoAnterior": 31495614,
+        "meses": [
+          -79969,
+          -13318277,
+          -661459,
+          3309912,
+          -12092627,
+          2455966
+        ],
+        "total": -20386454,
+        "acumulado": 11109160
+      }
+    }
+  },
+  "eriMensual": [
+    {
+      "concepto": "ENTRENAMIENTO",
+      "nivel": 0,
+      "valores": [
+        56766460,
+        42856106,
+        43410436,
+        33038787,
+        72272060,
+        50428618
+      ],
+      "total": 298772467,
+      "participacion": 0.9454
+    },
+    {
+      "concepto": "FINANZAS EMOCIONALES",
+      "nivel": 0,
+      "valores": [
+        null,
+        null,
+        100000,
+        245000,
+        null,
+        null
+      ],
+      "total": 345000,
+      "participacion": 0.0011
+    },
+    {
+      "concepto": "CAPACITACION",
+      "nivel": 0,
+      "valores": [
+        null,
+        null,
+        1500000,
+        null,
+        null,
+        null
+      ],
+      "total": 1500000,
+      "participacion": 0.0047
+    },
+    {
+      "concepto": "MECT",
+      "nivel": 0,
+      "valores": [
+        null,
+        null,
+        null,
+        11314800,
+        2082000,
+        1948600
+      ],
+      "total": 15345400,
+      "participacion": 0.0486
+    },
+    {
+      "concepto": "NIÑO INTERIOR",
+      "nivel": 0,
+      "valores": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        0
+      ],
+      "total": 0,
+      "participacion": 0
+    },
+    {
+      "concepto": "REINTEGRO NOCHE DE CONFIANZA",
+      "nivel": 0,
+      "valores": [
+        null,
+        null,
+        null,
+        null,
+        15000,
+        null
+      ],
+      "total": 15000,
+      "participacion": 0
+    },
+    {
+      "concepto": "PENALIZACION POR DEV",
+      "nivel": 0,
+      "valores": [
+        20000,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "total": 20000,
+      "participacion": 0.0001
+    },
+    {
+      "concepto": "PAGO SERVICIOS OBTENER",
+      "nivel": 0,
+      "valores": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        270000
+      ],
+      "total": 270000,
+      "participacion": 0.0009
+    },
+    {
+      "concepto": "DEVOLUCIONES",
+      "nivel": 0,
+      "valores": [
+        -240000,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "total": -240000,
+      "participacion": -0.0008
+    },
+    {
+      "concepto": "TOTAL INGRESOS OPERA",
+      "nivel": 0,
+      "valores": [
+        56786460,
+        42856106,
+        45010436,
+        44598587,
+        74369060,
+        52647218
+      ],
+      "total": 316027867,
+      "participacion": null
+    },
+    {
+      "concepto": "OTROS INGRESOS",
+      "nivel": 0,
+      "valores": [
+        2226,
+        32722,
+        3600785,
+        230795,
+        598505,
+        233823
+      ],
+      "total": 4698856,
+      "participacion": null
+    },
+    {
+      "concepto": "ALQUILER DE SALON",
+      "nivel": 1,
+      "valores": [
+        null,
+        null,
+        250000,
+        null,
+        null,
+        null
+      ],
+      "total": 250000,
+      "participacion": null
+    },
+    {
+      "concepto": "VENTA DE SILLAS",
+      "nivel": 1,
+      "valores": [
+        null,
+        null,
+        3350000,
+        null,
+        60000,
+        null
+      ],
+      "total": 3410000,
+      "participacion": null
+    },
+    {
+      "concepto": "REINTEGRO LATAM",
+      "nivel": 1,
+      "valores": [
+        null,
+        null,
+        null,
+        216810,
+        null,
+        null
+      ],
+      "total": 216810,
+      "participacion": null
+    },
+    {
+      "concepto": "VENTA DE AIRE ACONDICIONADO",
+      "nivel": 1,
+      "valores": [
+        null,
+        null,
+        null,
+        null,
+        550000,
+        null
+      ],
+      "total": 550000,
+      "participacion": null
+    },
+    {
+      "concepto": "PAGO INCAPACIDADES",
+      "nivel": 1,
+      "valores": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        233454
+      ],
+      "total": 233454,
+      "participacion": null
+    },
+    {
+      "concepto": "FINANCIEROS",
+      "nivel": 1,
+      "valores": [
+        2214,
+        1019,
+        785,
+        1643,
+        733,
+        368
+      ],
+      "total": 6762,
+      "participacion": null
+    },
+    {
+      "concepto": "AJUSTE AL PESO",
+      "nivel": 1,
+      "valores": [
+        12,
+        31703,
+        null,
+        12342,
+        -12228,
+        1
+      ],
+      "total": 31830,
+      "participacion": null
+    },
+    {
+      "concepto": "TOTAL INGRESOS",
+      "nivel": 0,
+      "valores": [
+        56788686,
+        42888828,
+        48611221,
+        44829382,
+        74967565,
+        52881041
+      ],
+      "total": 320726723,
+      "participacion": null
+    },
+    {
+      "concepto": "COSTOS",
+      "nivel": 0,
+      "valores": [
+        -23557142,
+        -25200541,
+        -20444229,
+        -21533906,
+        -19763002,
+        -22554534
+      ],
+      "total": -133053354,
+      "participacion": -0.421
+    },
+    {
+      "concepto": "GASTOS OPERACIONALES",
+      "nivel": 0,
+      "valores": [
+        -27788524,
+        -24925789,
+        -27886848,
+        -32837214,
+        -36480080,
+        -36434541
+      ],
+      "total": -186352996,
+      "participacion": -0.5897
+    },
+    {
+      "concepto": "ADMINISTRACION",
+      "nivel": 1,
+      "valores": [
+        -26798087,
+        -24395246,
+        -27288843,
+        -32270027,
+        -35924680,
+        -35521199
+      ],
+      "total": -182198082,
+      "participacion": -0.5765
+    },
+    {
+      "concepto": "VENTAS",
+      "nivel": 1,
+      "valores": [
+        -200000,
+        -200000,
+        -200000,
+        -200000,
+        -250000,
+        -430000
+      ],
+      "total": -1480000,
+      "participacion": -0.0047
+    },
+    {
+      "concepto": "FINANCIEROS",
+      "nivel": 1,
+      "valores": [
+        -276666,
+        -330543,
+        -398005,
+        -367187,
+        -305400,
+        -363342
+      ],
+      "total": -2041143,
+      "participacion": -0.0065
+    },
+    {
+      "concepto": "GASTOS DEL 2025",
+      "nivel": 1,
+      "valores": [
+        -513771,
+        0,
+        0,
+        0,
+        null,
+        -120000
+      ],
+      "total": -633771,
+      "participacion": -0.002
+    },
+    {
+      "concepto": "TOTAL EGRESOS",
+      "nivel": 0,
+      "valores": [
+        -51345666,
+        -50126330,
+        -48331077,
+        -54371120,
+        -56243082,
+        -58989075
+      ],
+      "total": -319406350,
+      "participacion": null
+    },
+    {
+      "concepto": "UTILIDAD / (PÉRDIDA)",
+      "nivel": 0,
+      "valores": [
+        5443020,
+        -7237502,
+        280144,
+        -9541738,
+        18724483,
+        -6108034
+      ],
+      "total": 1320373,
+      "participacion": 0.0041
+    }
+  ],
+  "eriVision": {
+    "segmentos": [
+      "ECO 64",
+      "ECO 65",
+      "ECO 66",
+      "ECO 67",
+      "ECO 68",
+      "ECO 69",
+      "ECO 70"
+    ],
+    "filas": [
+      {
+        "concepto": "EMPEZAR",
+        "valores": [
+          null,
+          null,
+          null,
+          7876700,
+          7555000,
+          13340500,
+          13400000
+        ],
+        "total": 42172200,
+        "participacion": 0.1511
+      },
+      {
+        "concepto": "CREAR",
+        "valores": [
+          null,
+          null,
+          null,
+          29511800,
+          30080150,
+          34091700,
+          28583738
+        ],
+        "total": 122267388,
+        "participacion": 0.4382
+      },
+      {
+        "concepto": "OBTENER",
+        "valores": [
+          14503722,
+          15067372,
+          11617329,
+          36949102,
+          18731223,
+          10705665,
+          4968000
+        ],
+        "total": 112542413,
+        "participacion": 0.4034
+      },
+      {
+        "concepto": "NOCHE DE CONFIANZA",
+        "valores": [
+          1567858,
+          1357458,
+          678626,
+          1078678,
+          null,
+          null,
+          null
+        ],
+        "total": 4682620,
+        "participacion": 0.0168
+      },
+      {
+        "concepto": "DEVOLUCIONES",
+        "valores": [
+          null,
+          null,
+          -240000,
+          -1210000,
+          -240000,
+          -300000,
+          -660000
+        ],
+        "total": -2650000,
+        "participacion": -0.0095
+      },
+      {
+        "concepto": "TOTAL INGRESOS",
+        "valores": [
+          16071580,
+          16424830,
+          12055955,
+          74206280,
+          56126373,
+          57837865,
+          46291738
+        ],
+        "total": 279014621,
+        "participacion": null
+      },
+      {
+        "concepto": "COSTOS",
+        "valores": [
+          -8954100,
+          -11263601,
+          -9481900,
+          -29386110,
+          -20181864,
+          -16046346,
+          -12956891
+        ],
+        "total": -108270812,
+        "participacion": -0.388
+      },
+      {
+        "concepto": "GASTOS",
+        "valores": [
+          0,
+          -5000,
+          -61500,
+          -303778,
+          -286123,
+          -178464,
+          -262414
+        ],
+        "total": -1097279,
+        "participacion": -0.0039
+      },
+      {
+        "concepto": "TOTAL EGRESOS",
+        "valores": [
+          -8954100,
+          -11268601,
+          -9543400,
+          -29689888,
+          -20467987,
+          -16224810,
+          -13219305
+        ],
+        "total": -109368091,
+        "participacion": null
+      },
+      {
+        "concepto": "UTILIDAD / (PÉRDIDA)",
+        "valores": [
+          7117480,
+          5156229,
+          2512555,
+          44516392,
+          35658386,
+          41613055,
+          33072433
+        ],
+        "total": 169646530,
+        "participacion": 0.608
+      }
+    ]
+  },
+  "eriFiscal": {
+    "meses": [
+      "Enero",
+      "Febrero",
+      "Marzo",
+      "Abril",
+      "Mayo",
+      "Junio"
+    ],
+    "filas": [
+      {
+        "concepto": "EMPEZAR",
+        "nivel": 0,
+        "valores": [
+          null,
+          null,
+          null,
+          756303,
+          798319,
+          null
+        ],
+        "total": 1554622,
+        "participacion": 0.054
+      },
+      {
+        "concepto": "CREAR",
+        "nivel": 0,
+        "valores": [
+          1295000,
+          null,
+          1088235,
+          2092437,
+          2218488,
+          6873949
+        ],
+        "total": 13568109,
+        "participacion": 0.4714
+      },
+      {
+        "concepto": "OBTENER",
+        "nivel": 0,
+        "valores": [
+          null,
+          1424370,
+          1676471,
+          880252,
+          3777310,
+          1676471
+        ],
+        "total": 9434874,
+        "participacion": 0.3278
+      },
+      {
+        "concepto": "CAPACITACION",
+        "nivel": 0,
+        "valores": [
+          null,
+          3671471,
+          1500000,
+          1046219,
+          null,
+          null
+        ],
+        "total": 6217690,
+        "participacion": 0.216
+      },
+      {
+        "concepto": "MECT",
+        "nivel": 0,
+        "valores": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "total": 0,
+        "participacion": 0
+      },
+      {
+        "concepto": "OTROS INGRESOS",
+        "nivel": 0,
+        "valores": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "total": 0,
+        "participacion": 0
+      },
+      {
+        "concepto": "DEVOLUCIONES",
+        "nivel": 0,
+        "valores": [
+          null,
+          -1995000,
+          null,
+          null,
+          null,
+          null
+        ],
+        "total": -1995000,
+        "participacion": -0.0693
+      },
+      {
+        "concepto": "TOTAL INGRESOS",
+        "nivel": 0,
+        "valores": [
+          1295000,
+          3100841,
+          4264706,
+          4775211,
+          6794117,
+          8550420
+        ],
+        "total": 28780295,
+        "participacion": null
+      },
+      {
+        "concepto": "COSTOS",
+        "nivel": 0,
+        "valores": [
+          -1963353,
+          -2056994,
+          -1806733,
+          -2551029,
+          -6013633,
+          -2443909
+        ],
+        "total": -16835652,
+        "participacion": -0.585
+      },
+      {
+        "concepto": "GASTOS",
+        "nivel": 0,
+        "valores": [
+          -10531543,
+          -12501846,
+          -12428892,
+          -12501848,
+          -12501848,
+          -12501846
+        ],
+        "total": -72967823,
+        "participacion": -2.5353
+      },
+      {
+        "concepto": "Sueldos",
+        "nivel": 1,
+        "valores": [
+          7299645,
+          9124548,
+          9124548,
+          9124550,
+          9124550,
+          9124548
+        ],
+        "total": 52922389,
+        "participacion": 1.8388
+      },
+      {
+        "concepto": "Prestaciones",
+        "nivel": 1,
+        "valores": [
+          1940298,
+          1940298,
+          1867344,
+          1940298,
+          1940298,
+          1940298
+        ],
+        "total": 11568834,
+        "participacion": 0.402
+      },
+      {
+        "concepto": "Seguridad social",
+        "nivel": 1,
+        "valores": [
+          1291600,
+          1437000,
+          1437000,
+          1437000,
+          1437000,
+          1437000
+        ],
+        "total": 8476600,
+        "participacion": 0.2945
+      },
+      {
+        "concepto": "TOTAL EGRESOS",
+        "nivel": 0,
+        "valores": [
+          -12494896,
+          -14558840,
+          -14235625,
+          -15052877,
+          -18515481,
+          -14945755
+        ],
+        "total": -89803475,
+        "participacion": -3.1203
+      },
+      {
+        "concepto": "UTILIDAD / (PÉRDIDA)",
+        "nivel": 0,
+        "valores": [
+          -11199896,
+          -11457999,
+          -9970919,
+          -10277666,
+          -11721364,
+          -6395335
+        ],
+        "total": -61023180,
+        "participacion": -2.1203
+      }
+    ]
+  },
+  "eriFiscalHistorico": {
+    "periodos": [
+      "2022",
+      "2023",
+      "2024",
+      "2025",
+      "PARCIAL 2026"
+    ],
+    "filas": [
+      {
+        "concepto": "Entrenamiento",
+        "nivel": 0,
+        "valores": [
+          48110000,
+          317471000,
+          90016000,
+          48123000,
+          30775295
+        ],
+        "total": 534495295,
+        "participacion": 1.0083
+      },
+      {
+        "concepto": "CREAR",
+        "nivel": 0,
+        "valores": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "total": 0,
+        "participacion": 0
+      },
+      {
+        "concepto": "OBTENER",
+        "nivel": 0,
+        "valores": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "total": 0,
+        "participacion": 0
+      },
+      {
+        "concepto": "CAPACITACION",
+        "nivel": 0,
+        "valores": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "total": 0,
+        "participacion": 0
+      },
+      {
+        "concepto": "MECT",
+        "nivel": 0,
+        "valores": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "total": 0,
+        "participacion": 0
+      },
+      {
+        "concepto": "OTROS INGRESOS",
+        "nivel": 0,
+        "valores": [
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "total": 0,
+        "participacion": 0
+      },
+      {
+        "concepto": "DEVOLUCIONES",
+        "nivel": 0,
+        "valores": [
+          -2390000,
+          null,
+          null,
+          null,
+          -1995000
+        ],
+        "total": -4385000,
+        "participacion": -0.0083
+      },
+      {
+        "concepto": "TOTAL INGRESOS",
+        "nivel": 0,
+        "valores": [
+          45720000,
+          317471000,
+          90016000,
+          48123000,
+          28780295
+        ],
+        "total": 530110295,
+        "participacion": null
+      },
+      {
+        "concepto": "COSTOS",
+        "nivel": 0,
+        "valores": [
+          null,
+          null,
+          null,
+          null,
+          -16835652
+        ],
+        "total": -16835652,
+        "participacion": -0.0318
+      },
+      {
+        "concepto": "GASTOS",
+        "nivel": 0,
+        "valores": [
+          -46130000,
+          -174238500,
+          -136696500,
+          -114786500,
+          -72967823
+        ],
+        "total": -544819323,
+        "participacion": -1.0277
+      },
+      {
+        "concepto": "Administracion",
+        "nivel": 1,
+        "valores": [
+          45494000,
+          170587500,
+          135662500,
+          114312500,
+          72967823
+        ],
+        "total": 539024323,
+        "participacion": 1.0168
+      },
+      {
+        "concepto": "Ventas",
+        "nivel": 1,
+        "valores": [
+          null,
+          3651000,
+          1034000,
+          474000,
+          null
+        ],
+        "total": 5159000,
+        "participacion": 0.0097
+      },
+      {
+        "concepto": "Bancarios",
+        "nivel": 1,
+        "valores": [
+          636000,
+          null,
+          null,
+          null,
+          null
+        ],
+        "total": 636000,
+        "participacion": 0.0012
+      },
+      {
+        "concepto": "TOTAL EGRESOS",
+        "nivel": 0,
+        "valores": [
+          -46130000,
+          -174238500,
+          -136696500,
+          -114786500,
+          -89803475
+        ],
+        "total": -561654975,
+        "participacion": -1.0595
+      },
+      {
+        "concepto": "UTILIDAD / (PÉRDIDA)",
+        "nivel": 0,
+        "valores": [
+          -410000,
+          143232500,
+          -46680500,
+          -66663500,
+          -61023180
+        ],
+        "total": -31544680,
+        "participacion": -0.0595
+      }
+    ]
+  },
+  "balance": {
+    "activoCorriente": [
+      {
+        "concepto": "Efectivo y equivalentes",
+        "valor": 123046547
+      },
+      {
+        "concepto": "Inversiones",
+        "valor": 0
+      },
+      {
+        "concepto": "Deudores comerciales",
+        "valor": 32967135
+      }
+    ],
+    "totalActivoCorriente": {
+      "concepto": "Total Activo corriente",
+      "valor": 156013682
+    },
+    "activoNoCorriente": [
+      {
+        "concepto": "Propiedades, planta y equipo",
+        "valor": 36998961
+      }
+    ],
+    "totalActivoNoCorriente": {
+      "concepto": "Total Activo no Corriente",
+      "valor": 36998961
+    },
+    "totalActivo": {
+      "concepto": "Total Activo",
+      "valor": 193012643
+    },
+    "pasivoCorriente": [
+      {
+        "concepto": "Acreedores comerciales",
+        "valor": 18887874
+      },
+      {
+        "concepto": "Ingresos recibidos por anticipado",
+        "valor": 95297409
+      },
+      {
+        "concepto": "Beneficios a empleados",
+        "valor": 6367764
+      }
+    ],
+    "totalPasivoCorriente": {
+      "concepto": "Total Pasivo Corriente",
+      "valor": 120553047
+    },
+    "totalPasivoNoCorriente": {
+      "concepto": "Total Pasivo no Corriente",
+      "valor": 0
+    },
+    "totalPasivo": {
+      "concepto": "Total Pasivo",
+      "valor": 120553047
+    },
+    "patrimonio": [
+      {
+        "concepto": "Capital",
+        "valor": 17819526
+      },
+      {
+        "concepto": "Utilidades retenidas",
+        "valor": 53319696
+      },
+      {
+        "concepto": "Utilidad del ejercicio",
+        "valor": 1320375
+      }
+    ],
+    "totalPatrimonio": {
+      "concepto": "Total Patrimonio",
+      "valor": 72459597
+    },
+    "totalPasivoPatrimonio": {
+      "concepto": "Total pasivo y patrimonio",
+      "valor": 193012644
+    }
+  },
+  "resultados": {
+    "lineas": [
+      {
+        "concepto": "Servicios",
+        "valor": 300132467
+      },
+      {
+        "concepto": "Costo del servicios",
+        "valor": -133053354
+      },
+      {
+        "concepto": "Ganancia bruta",
+        "valor": 167079113
+      },
+      {
+        "concepto": "Total utilidad bruta en operaciones",
+        "valor": 167079113
+      },
+      {
+        "concepto": "Gastos ordinarios",
+        "valor": -186352995
+      },
+      {
+        "concepto": "Utilidad operacional",
+        "valor": -19273882
+      },
+      {
+        "concepto": "Otros ingresos",
+        "valor": 20594257
+      },
+      {
+        "concepto": "Utilidad Antes de Impuestos",
+        "valor": 1320375
+      },
+      {
+        "concepto": "Resultado del periodo",
+        "valor": 1320375
+      }
+    ]
+  },
+  "fuentes": [
+    {
+      "archivo": "CONS CAJA Y BANCO INGRESOS - EGRESOS (1).xlsx",
+      "hoja": "Hoja1",
+      "seccion": "Caja y bancos"
+    },
+    {
+      "archivo": "ERI MENSUAL (2).xlsx",
+      "hoja": "POR MES",
+      "seccion": "ERI mensual"
+    },
+    {
+      "archivo": "ERI POR VISION (1).xlsx",
+      "hoja": "POR VISION",
+      "seccion": "ERI por vision"
+    },
+    {
+      "archivo": "ERI FISCAL.xlsx",
+      "hoja": "Hoja1",
+      "seccion": "ERI fiscal"
+    },
+    {
+      "archivo": "ERI FISCAL Historico.xlsx",
+      "hoja": "Hoja1",
+      "seccion": "ERI fiscal historico"
+    },
+    {
+      "archivo": "EEFF DEFINITIVO ADTIVO JUN 2026 -INTERMEDIOS (2).xls",
+      "hoja": "ESF Consorcio",
+      "seccion": "Balance"
+    },
+    {
+      "archivo": "EEFF DEFINITIVO ADTIVO JUN 2026 -INTERMEDIOS (2).xls",
+      "hoja": "ERI Consorcio",
+      "seccion": "Estado de resultados"
+    }
+  ]
+}

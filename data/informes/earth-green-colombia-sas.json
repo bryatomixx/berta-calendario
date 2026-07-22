@@ -1,0 +1,554 @@
+{
+  "clienteId": "earth-green-colombia-sas",
+  "empresa": "EARTH GREEN COLOMBIA SAS",
+  "tipo": "anual",
+  "periodo": "Ejercicio 2022 (comparativo 2021)",
+  "corte": "31 de diciembre de 2022",
+  "moneda": "COP",
+  "columnas": [
+    "2022",
+    "2021"
+  ],
+  "balance": {
+    "activoCorriente": [
+      {
+        "concepto": "Efectivo y equivalentes",
+        "valores": [
+          12145911,
+          1398201
+        ]
+      },
+      {
+        "concepto": "Inversiones",
+        "valores": [
+          217145000,
+          217145000
+        ]
+      },
+      {
+        "concepto": "Deudores comerciales",
+        "valores": [
+          515712290,
+          478613652
+        ]
+      },
+      {
+        "concepto": "Inventarios",
+        "valores": [
+          135014161,
+          105242490
+        ]
+      }
+    ],
+    "totalActivoCorriente": {
+      "concepto": "Total Activo corriente",
+      "valores": [
+        880017362,
+        802399343
+      ]
+    },
+    "activoNoCorriente": [
+      {
+        "concepto": "Propiedades, planta y equipo",
+        "valores": [
+          484158293,
+          419260625
+        ]
+      },
+      {
+        "concepto": "Impuesto diferido",
+        "valores": [
+          2881000,
+          2881000
+        ]
+      },
+      {
+        "concepto": "Otros activos",
+        "valores": [
+          0,
+          21048589
+        ]
+      }
+    ],
+    "totalActivoNoCorriente": {
+      "concepto": "Total Activo no Corriente",
+      "valores": [
+        487039293,
+        443190214
+      ]
+    },
+    "totalActivo": {
+      "concepto": "Total Activo",
+      "valores": [
+        1367056655,
+        1245589557
+      ]
+    },
+    "pasivoCorriente": [
+      {
+        "concepto": "Obligaciones financieras y acreedores comerciales",
+        "valores": [
+          335731098,
+          711342026
+        ]
+      },
+      {
+        "concepto": "Impuestos, Gravámenes y Tasas",
+        "valores": [
+          20682000,
+          20887183
+        ]
+      },
+      {
+        "concepto": "Beneficios a empleados",
+        "valores": [
+          28269594,
+          40703584
+        ]
+      }
+    ],
+    "totalPasivoCorriente": {
+      "concepto": "Total Pasivo Corriente",
+      "valores": [
+        384682692,
+        772932793
+      ]
+    },
+    "pasivoNoCorriente": [
+      {
+        "concepto": "Obligaciones financieras",
+        "valores": [
+          null,
+          80000000
+        ]
+      },
+      {
+        "concepto": "Acreedores comerciales",
+        "valores": [
+          457863497,
+          0
+        ]
+      },
+      {
+        "concepto": "Impuesto diferido",
+        "valores": [
+          25917000,
+          25917000
+        ]
+      }
+    ],
+    "totalPasivoNoCorriente": {
+      "concepto": "Total Pasivo no Corriente",
+      "valores": [
+        483780497,
+        105917000
+      ]
+    },
+    "totalPasivo": {
+      "concepto": "Total Pasivo",
+      "valores": [
+        868463189,
+        878849793
+      ]
+    },
+    "patrimonio": [
+      {
+        "concepto": "Capital",
+        "valores": [
+          90804747,
+          90804747
+        ]
+      },
+      {
+        "concepto": "Reservas",
+        "valores": [
+          20692515,
+          20692515
+        ]
+      },
+      {
+        "concepto": "Utilidades retenidas",
+        "valores": [
+          275665669,
+          187686820
+        ]
+      },
+      {
+        "concepto": "Ajustes por adopción",
+        "valores": [
+          -20423167,
+          -20423167
+        ]
+      },
+      {
+        "concepto": "Utilidad del ejercicio",
+        "valores": [
+          131853702,
+          87978849
+        ]
+      }
+    ],
+    "totalPatrimonio": {
+      "concepto": "Total Patrimonio",
+      "valores": [
+        498593466,
+        366739764
+      ]
+    },
+    "totalPasivoPatrimonio": {
+      "concepto": "Total pasivo y patrimonio",
+      "valores": [
+        1367056655,
+        1245589557
+      ]
+    }
+  },
+  "resultados": {
+    "columnas": [
+      "2022",
+      "2021"
+    ],
+    "filas": [
+      {
+        "concepto": "Industrias manufactureras",
+        "nivel": 0,
+        "valores": [
+          1256710207,
+          1536759526
+        ]
+      },
+      {
+        "concepto": "Costo de mercancía vendida",
+        "nivel": 0,
+        "valores": [
+          -837133243,
+          -1161707413
+        ]
+      },
+      {
+        "concepto": "Ganancia bruta",
+        "nivel": 0,
+        "valores": [
+          419576964,
+          375052113
+        ]
+      },
+      {
+        "concepto": "Deterioro del valor de los activos",
+        "nivel": 0,
+        "valores": [
+          0,
+          0
+        ]
+      },
+      {
+        "concepto": "Total utilidad bruta en operaciones",
+        "nivel": 0,
+        "valores": [
+          419576964,
+          375052113
+        ]
+      },
+      {
+        "concepto": "Personal (Benficios a empleados)",
+        "nivel": 1,
+        "valores": [
+          40621530,
+          23653358
+        ]
+      },
+      {
+        "concepto": "Arrendamientos",
+        "nivel": 1,
+        "valores": [
+          6791600,
+          10799753
+        ]
+      },
+      {
+        "concepto": "Contribuciones y afiliaciones:acodal",
+        "nivel": 1,
+        "valores": [
+          0,
+          0
+        ]
+      },
+      {
+        "concepto": "Honorarios",
+        "nivel": 1,
+        "valores": [
+          9450000,
+          10690000
+        ]
+      },
+      {
+        "concepto": "Impuestos: GMF, IVA descontable",
+        "nivel": 1,
+        "valores": [
+          12983155,
+          13041469
+        ]
+      },
+      {
+        "concepto": "Seguros",
+        "nivel": 1,
+        "valores": [
+          0,
+          0
+        ]
+      },
+      {
+        "concepto": "Servicios",
+        "nivel": 1,
+        "valores": [
+          10101843,
+          7439497
+        ]
+      },
+      {
+        "concepto": "Legales:",
+        "nivel": 1,
+        "valores": [
+          2717160,
+          3917126
+        ]
+      },
+      {
+        "concepto": "Adecuacion  e Instalación",
+        "nivel": 1,
+        "valores": [
+          350756,
+          0
+        ]
+      },
+      {
+        "concepto": "Mantenimiento",
+        "nivel": 1,
+        "valores": [
+          635000,
+          562400
+        ]
+      },
+      {
+        "concepto": "Depreciacion",
+        "nivel": 1,
+        "valores": [
+          1061496,
+          435416
+        ]
+      },
+      {
+        "concepto": "Diversos:papeleria., aseo y combustible",
+        "nivel": 1,
+        "valores": [
+          1823988,
+          893830
+        ]
+      },
+      {
+        "concepto": "Total Gastos de Administración",
+        "nivel": 0,
+        "valores": [
+          86536528,
+          71432849
+        ]
+      },
+      {
+        "concepto": "Personal: vinculado",
+        "nivel": 1,
+        "valores": [
+          51524331,
+          27396203
+        ]
+      },
+      {
+        "concepto": "Arrendamientos",
+        "nivel": 1,
+        "valores": [
+          9112266,
+          361700
+        ]
+      },
+      {
+        "concepto": "Honorarios",
+        "nivel": 1,
+        "valores": [
+          504000,
+          0
+        ]
+      },
+      {
+        "concepto": "Contribuciones y afiliaciones",
+        "nivel": 1,
+        "valores": [
+          1415300,
+          11070071
+        ]
+      },
+      {
+        "concepto": "Seguros",
+        "nivel": 1,
+        "valores": [
+          7362672,
+          3642837
+        ]
+      },
+      {
+        "concepto": "Impuestos",
+        "nivel": 1,
+        "valores": [
+          3804079,
+          10351688
+        ]
+      },
+      {
+        "concepto": "Servicios:tecnicos, transporte y correo",
+        "nivel": 1,
+        "valores": [
+          61437033,
+          74078500
+        ]
+      },
+      {
+        "concepto": "Legales",
+        "nivel": 1,
+        "valores": [
+          70160,
+          7473812
+        ]
+      },
+      {
+        "concepto": "Viajes",
+        "nivel": 1,
+        "valores": [
+          0,
+          0
+        ]
+      },
+      {
+        "concepto": "Mantenimiento",
+        "nivel": 1,
+        "valores": [
+          4373358,
+          670000
+        ]
+      },
+      {
+        "concepto": "Adecuacion e instalacion",
+        "nivel": 1,
+        "valores": [
+          195000,
+          1493374
+        ]
+      },
+      {
+        "concepto": "Gastos de viaje",
+        "nivel": 1,
+        "valores": [
+          129000,
+          0
+        ]
+      },
+      {
+        "concepto": "Diversos:papeleria., aseo y combustible",
+        "nivel": 1,
+        "valores": [
+          19310380,
+          33668058
+        ]
+      },
+      {
+        "concepto": "Total gastos de Ventas",
+        "nivel": 0,
+        "valores": [
+          159237579,
+          170206243
+        ]
+      },
+      {
+        "concepto": "Total gastos ordinarios",
+        "nivel": 0,
+        "valores": [
+          245774107,
+          241639092
+        ]
+      },
+      {
+        "concepto": "Utilidad operacional",
+        "nivel": 0,
+        "valores": [
+          173802857,
+          133413021
+        ]
+      },
+      {
+        "concepto": "Otros ingresos",
+        "nivel": 0,
+        "valores": [
+          9038681,
+          26045564
+        ]
+      },
+      {
+        "concepto": "Otros Egresos",
+        "nivel": 0,
+        "valores": [
+          26865512,
+          12847937
+        ]
+      },
+      {
+        "concepto": "Costos por préstamos",
+        "nivel": 0,
+        "valores": [
+          24122324,
+          13461799
+        ]
+      },
+      {
+        "concepto": "Utilidad Antes de Impuestos",
+        "nivel": 0,
+        "valores": [
+          131853702,
+          133148849
+        ]
+      },
+      {
+        "concepto": "Impuesto a las ganancias",
+        "nivel": 0,
+        "valores": [
+          0,
+          44248000
+        ]
+      },
+      {
+        "concepto": "Impuesto Diferido",
+        "nivel": 0,
+        "valores": [
+          0,
+          922000
+        ]
+      },
+      {
+        "concepto": "Resultado del periodo",
+        "nivel": 0,
+        "valores": [
+          131853702,
+          87978849
+        ]
+      }
+    ]
+  },
+  "fuentes": [
+    {
+      "archivo": "EEFF DEFINITIVO ADTIVO JUN 2026 -INTERMEDIOS (2).xls",
+      "hoja": "ESF V2",
+      "seccion": "Balance"
+    },
+    {
+      "archivo": "EEFF DEFINITIVO ADTIVO JUN 2026 -INTERMEDIOS (2).xls",
+      "hoja": "ERI  V2",
+      "seccion": "Estado de resultados"
+    }
+  ]
+}
