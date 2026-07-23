@@ -109,7 +109,7 @@ export function InformeMensualView({ data: D }: { data: InformeMensualData }) {
 
   return (
     <>
-      <div className="mb-6 -mx-1 flex items-center gap-1 overflow-x-auto pb-1">
+      <div className="no-print mb-6 -mx-1 flex items-center gap-1 overflow-x-auto pb-1">
         {TABS.map((t) => {
           const active = t.id === tab;
           return (
@@ -129,13 +129,30 @@ export function InformeMensualView({ data: D }: { data: InformeMensualData }) {
         })}
       </div>
 
-      {tab === 'resumen' && <ResumenTab {...ctx} />}
-      {tab === 'eri' && <ResultadosTab {...ctx} />}
-      {tab === 'vision' && <VisionTab D={D} />}
-      {tab === 'fiscal' && <FiscalTab D={D} />}
-      {tab === 'balance' && <BalanceTab D={D} />}
-      {tab === 'caja' && <CajaTab {...ctx} />}
+      {/* Todas las pestañas se renderizan siempre: en pantalla se ve solo la
+          activa, pero al imprimir (Descargar PDF) se muestran todas, cada una
+          en su propia página, para un informe completo. */}
+      <Panel id="resumen" tab={tab} title="Resumen"><ResumenTab {...ctx} /></Panel>
+      <Panel id="eri" tab={tab} title="Estado de resultados"><ResultadosTab {...ctx} /></Panel>
+      <Panel id="vision" tab={tab} title="Por visión"><VisionTab D={D} /></Panel>
+      <Panel id="fiscal" tab={tab} title="Fiscal"><FiscalTab D={D} /></Panel>
+      <Panel id="balance" tab={tab} title="Balance"><BalanceTab D={D} /></Panel>
+      <Panel id="caja" tab={tab} title="Caja y bancos"><CajaTab {...ctx} /></Panel>
     </>
+  );
+}
+
+/** Contenedor de pestaña: en pantalla solo se muestra la activa; al imprimir,
+    todas (cada una arranca en página nueva vía la clase informe-panel). */
+function Panel({ id, tab, title, children }: { id: TabId; tab: TabId; title: string; children: React.ReactNode }) {
+  const active = id === tab;
+  return (
+    <section className={`informe-panel ${active ? 'block' : 'hidden print:block'}`}>
+      <h2 className="hidden print:block text-xl font-bold text-[var(--color-text-primary)] mb-4 pb-2 border-b border-[var(--color-border)]">
+        {title}
+      </h2>
+      {children}
+    </section>
   );
 }
 

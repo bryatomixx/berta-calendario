@@ -3,11 +3,25 @@
 import { Suspense, useMemo } from 'react';
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
-import { FileBarChart2, Building2 } from 'lucide-react';
+import { FileBarChart2, Building2, Download } from 'lucide-react';
 import { PageHeader } from '@/components/ui/PageHeader';
 import { InformeMensualView } from '@/components/informes/InformeMensual';
-import { InformeAnualView } from '@/components/informes/InformeAnual';
 import { INFORMES, getInforme } from '@/lib/informes';
+
+/** Expande los <details> del informe y abre el dialogo de impresion del
+    navegador (Guardar como PDF). Al terminar, restaura el estado previo. */
+function descargarPDF() {
+  if (typeof document === 'undefined') return;
+  const detalles = Array.from(document.querySelectorAll('details'));
+  const previo = detalles.map((d) => d.open);
+  detalles.forEach((d) => { d.open = true; });
+  const restaurar = () => {
+    detalles.forEach((d, i) => { d.open = previo[i]; });
+    window.removeEventListener('afterprint', restaurar);
+  };
+  window.addEventListener('afterprint', restaurar);
+  window.print();
+}
 
 /* La pagina de informes trabaja SIEMPRE sobre un cliente concreto. El cliente
    activo llega por ?cliente=<id> (desde la ficha del cliente); si no viene, se
@@ -33,15 +47,25 @@ function InformesContenido() {
         title="Informes Financieros"
         subtitle={`${informe.empresa} · ${informe.periodo}`}
         actions={
-          <span className="hidden sm:inline-flex items-center rounded-[var(--radius-full)] bg-[var(--color-teal-50)] px-3 py-1.5 text-xs font-semibold text-[var(--color-teal-700)]">
-            Corte {informe.corte}
-          </span>
+          <div className="flex items-center gap-2.5">
+            <span className="hidden sm:inline-flex items-center rounded-[var(--radius-full)] bg-[var(--color-teal-50)] px-3 py-1.5 text-xs font-semibold text-[var(--color-teal-700)]">
+              Corte {informe.corte}
+            </span>
+            <button
+              type="button"
+              onClick={descargarPDF}
+              className="no-print inline-flex items-center gap-2 rounded-[var(--radius-md)] bg-[var(--color-text-primary)] px-3.5 py-2 text-sm font-semibold text-white shadow-xs transition-colors hover:bg-black focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-500/40 cursor-pointer"
+            >
+              <Download className="w-4 h-4" aria-hidden="true" />
+              Descargar PDF
+            </button>
+          </div>
         }
       />
 
       {/* Selector de empresa: solo aparece si hay mas de un informe. */}
       {empresas.length > 1 && (
-        <div className="mb-6 -mx-1 flex items-center gap-2 overflow-x-auto pb-1">
+        <div className="no-print mb-6 -mx-1 flex items-center gap-2 overflow-x-auto pb-1">
           <span className="shrink-0 inline-flex items-center gap-1.5 text-xs font-semibold text-[var(--color-text-muted)] px-1">
             <Building2 className="w-3.5 h-3.5" />
             Empresa
@@ -66,11 +90,7 @@ function InformesContenido() {
         </div>
       )}
 
-      {informe.tipo === 'mensual' ? (
-        <InformeMensualView data={informe} />
-      ) : (
-        <InformeAnualView data={informe} />
-      )}
+      <InformeMensualView data={informe} />
 
       <FuentesNota fuentes={informe.fuentes} />
 
@@ -85,7 +105,7 @@ function InformesContenido() {
 function FuentesNota({ fuentes }: { fuentes: { archivo: string; hoja: string; seccion: string }[] }) {
   if (!fuentes?.length) return null;
   return (
-    <details className="mt-8 group">
+    <details className="no-print mt-8 group">
       <summary className="cursor-pointer list-none [&::-webkit-details-marker]:hidden text-center text-[11px] font-semibold text-[var(--color-text-muted)] hover:text-[var(--color-text-secondary)]">
         Ver archivos fuente ({fuentes.length})
       </summary>

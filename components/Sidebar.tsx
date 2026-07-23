@@ -184,7 +184,7 @@ export function Sidebar({ currentMember, onSwitchMember }: SidebarProps) {
   return (
     <>
       {/* Sidebar desktop (>= 1024px) */}
-      <aside className="hidden lg:flex w-[var(--sidebar-w)] shrink-0 h-full flex-col border-r border-[var(--color-border)] bg-white">
+      <aside className="hidden lg:flex print:!hidden w-[var(--sidebar-w)] shrink-0 h-full flex-col border-r border-[var(--color-border)] bg-white">
         <SidebarContent
           currentMember={currentMember}
           onSwitchMember={onSwitchMember}
@@ -194,7 +194,7 @@ export function Sidebar({ currentMember, onSwitchMember }: SidebarProps) {
 
       {/* Topbar mobile (< 1024px) */}
       <div
-        className="lg:hidden fixed top-0 left-0 right-0 z-40 h-[var(--topbar-h)] flex items-center justify-between px-4 bg-white border-b border-[var(--color-border)]"
+        className="lg:hidden print:hidden fixed top-0 left-0 right-0 z-40 h-[var(--topbar-h)] flex items-center justify-between px-4 bg-white border-b border-[var(--color-border)]"
         role="banner"
       >
         <div className="flex items-center gap-2.5">

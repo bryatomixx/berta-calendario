@@ -65,13 +65,13 @@ export function NameGate({ children }: { children: React.ReactNode }) {
         Saltar al contenido principal
       </a>
 
-      <div className="flex h-screen overflow-hidden">
+      <div className="flex h-screen overflow-hidden print:block print:h-auto print:overflow-visible">
         <Sidebar currentMember={current} onSwitchMember={clear} />
 
         {/* Offset para la topbar mobile */}
         <main
           id="main-content"
-          className="flex-1 overflow-y-auto bg-[var(--color-surface)] lg:pt-0 pt-[var(--topbar-h)]"
+          className="flex-1 overflow-y-auto bg-[var(--color-surface)] lg:pt-0 pt-[var(--topbar-h)] print:overflow-visible print:pt-0"
         >
           <div className="max-w-[var(--content-max-w)] mx-auto px-[var(--page-px)] py-[var(--page-py)]">
             {children}

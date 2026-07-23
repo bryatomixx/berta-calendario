@@ -198,35 +198,6 @@ export function SignedBars({ months, values }: { months: string[]; values: (numb
   );
 }
 
-/** Barras horizontales comparativas (una barra por columna). */
-export function CompareBars({ columnas, series }: { columnas: string[]; series: { label: string; values: (number | null)[] }[] }) {
-  const max = Math.max(1, ...series.flatMap((s) => s.values.map((v) => Math.abs(v || 0))));
-  const colores = [C.brand, C.slate];
-  return (
-    <div className="space-y-5">
-      {series.map((s) => (
-        <div key={s.label}>
-          <p className="text-sm text-[var(--color-text-secondary)] mb-2">{s.label}</p>
-          <div className="space-y-1.5">
-            {columnas.map((col, i) => {
-              const v = s.values[i] ?? 0;
-              return (
-                <div key={col} className="flex items-center gap-3">
-                  <span className="w-10 shrink-0 text-xs tabular-nums text-[var(--color-text-muted)]">{col}</span>
-                  <div className="flex-1 h-3 rounded-full bg-[var(--color-surface-2)] overflow-hidden">
-                    <div className="h-full rounded-full" style={{ width: `${(Math.abs(v) / max) * 100}%`, background: colores[i % colores.length] }} />
-                  </div>
-                  <span className="w-32 text-right text-sm font-medium tabular-nums text-[var(--color-text-primary)]">{fmtCOP(v)}</span>
-                </div>
-              );
-            })}
-          </div>
-        </div>
-      ))}
-    </div>
-  );
-}
-
 export function GroupLabel({ children }: { children: React.ReactNode }) {
   return <p className="text-[11px] font-bold uppercase tracking-widest text-[var(--color-text-muted)] mt-4 first:mt-0 mb-1">{children}</p>;
 }
@@ -237,27 +208,6 @@ export function StRow({ label, value, sub, total }: { label: string; value: numb
     <div className={['flex items-center justify-between gap-4 py-1.5', total ? 'mt-1 border-t-2 border-[var(--color-border)] pt-2.5' : sub ? 'border-t border-[var(--color-border-soft)] pt-2 mt-1' : ''].join(' ')}>
       <span className={total ? 'text-sm font-bold text-[var(--color-text-primary)]' : sub ? 'text-sm font-semibold text-[var(--color-text-primary)]' : 'text-sm text-[var(--color-text-secondary)]'}>{label}</span>
       <span className={['tabular-nums shrink-0', total ? 'text-base font-bold text-teal-700' : sub ? 'text-sm font-semibold' : 'text-sm font-medium', neg ? 'text-rose-600' : total ? 'text-teal-700' : 'text-[var(--color-text-primary)]'].join(' ')}>{fmtCOP(value)}</span>
-    </div>
-  );
-}
-
-/** Fila de estado financiero comparativo: una celda por columna. */
-export function StRowMulti({ label, values, sub, total }: { label: string; values: (number | null)[]; sub?: boolean; total?: boolean }) {
-  return (
-    <div className={['flex items-center gap-3 py-1.5', total ? 'mt-1 border-t-2 border-[var(--color-border)] pt-2.5' : sub ? 'border-t border-[var(--color-border-soft)] pt-2 mt-1' : ''].join(' ')}>
-      <span className={['flex-1 min-w-0', total ? 'text-sm font-bold text-[var(--color-text-primary)]' : sub ? 'text-sm font-semibold text-[var(--color-text-primary)]' : 'text-sm text-[var(--color-text-secondary)]'].join(' ')}>{label}</span>
-      {values.map((v, i) => (
-        <span
-          key={i}
-          className={[
-            'w-32 sm:w-40 text-right tabular-nums shrink-0',
-            total ? 'text-base font-bold' : sub ? 'text-sm font-semibold' : 'text-sm font-medium',
-            (v ?? 0) < 0 ? 'text-rose-600' : total ? 'text-teal-700' : i === 0 ? 'text-[var(--color-text-primary)]' : 'text-[var(--color-text-muted)]',
-          ].join(' ')}
-        >
-          {fmtCOP(v)}
-        </span>
-      ))}
     </div>
   );
 }

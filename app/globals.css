@@ -192,6 +192,41 @@
 .serif-italic { font-family: var(--font-serif); font-style: italic; font-optical-sizing: auto; }
 .font-mono { font-family: var(--font-mono); font-feature-settings: "tnum", "ss01"; }
 .tabular { font-variant-numeric: tabular-nums; font-feature-settings: "tnum"; }
+
+/* =========================================================================
+   Impresion / Descargar PDF (informes financieros).
+   El boton "Descargar PDF" abre el dialogo del navegador; estas reglas
+   convierten la vista de pantalla en un documento limpio.
+   ========================================================================= */
+@media print {
+  /* Cromo de la app que no va en el PDF */
+  .no-print { display: none !important; }
+
+  /* Colores fieles: las barras/donas se imprimen con su color, no en blanco */
+  *, *::before, *::after {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Fondo blanco y sin recortes por el alto fijo del shell */
+  html, body {
+    height: auto !important;
+    overflow: visible !important;
+    background: #fff !important;
+  }
+
+  /* Al imprimir, cada <details> se expande y su boton (summary) se oculta */
+  details > summary { display: none !important; }
+
+  /* Cada seccion del informe arranca en su propia pagina */
+  section.informe-panel { break-before: page; }
+  section.informe-panel:first-of-type { break-before: auto; }
+
+  /* No cortar tarjetas ni tablas a la mitad entre paginas */
+  .shadow-card, table, tr { break-inside: avoid; }
+
+  @page { margin: 14mm; }
+}
 .tracker { letter-spacing: 0.14em; text-transform: uppercase; font-weight: 500; font-size: 0.6875rem; }
 
 .dotted-rule {

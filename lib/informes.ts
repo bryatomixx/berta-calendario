@@ -1,17 +1,12 @@
 import ecoData from '@/data/informes/espacio-consciente-eco-sas.json';
-import earthGreenData from '@/data/informes/earth-green-colombia-sas.json';
 
 /* -------------------------------------------------------------------------
    Informes financieros por cliente.
 
    Cada informe pertenece a UN cliente (clienteId = id en la cartera) y se
    genera desde los Excel que manda el cliente con scripts/build-informes.cjs.
-   Hay dos formas de informe:
-
-   - "mensual": periodo abierto por meses, con caja y bancos, ERI por mes,
-     ERI por vision y ERI fiscal. Es el caso de Espacio Consciente ECO SAS.
-   - "anual": cierre de ejercicio con columnas de anios comparativos. Es el
-     caso de Earth Green Colombia SAS (2022 contra 2021).
+   Un informe "mensual" cubre un periodo abierto por meses, con caja y bancos,
+   ERI por mes, ERI por vision y ERI fiscal (caso de Espacio Consciente ECO SAS).
    ---------------------------------------------------------------------- */
 
 /** Fila de una matriz concepto x periodos (mes, cohorte o anio). */
@@ -43,12 +38,6 @@ export interface Item {
   valor: number | null;
 }
 
-/** Linea de un estado financiero comparativo (una celda por columna). */
-export interface ItemMulti {
-  concepto: string;
-  valores: (number | null)[];
-}
-
 export interface Balance {
   activoCorriente: Item[];
   totalActivoCorriente: Item;
@@ -62,22 +51,6 @@ export interface Balance {
   patrimonio: Item[];
   totalPatrimonio: Item;
   totalPasivoPatrimonio: Item;
-}
-
-export interface BalanceMulti {
-  activoCorriente: ItemMulti[];
-  totalActivoCorriente: ItemMulti;
-  activoNoCorriente: ItemMulti[];
-  totalActivoNoCorriente: ItemMulti;
-  totalActivo: ItemMulti;
-  pasivoCorriente: ItemMulti[];
-  totalPasivoCorriente: ItemMulti;
-  pasivoNoCorriente: ItemMulti[];
-  totalPasivoNoCorriente: ItemMulti;
-  totalPasivo: ItemMulti;
-  patrimonio: ItemMulti[];
-  totalPatrimonio: ItemMulti;
-  totalPasivoPatrimonio: ItemMulti;
 }
 
 export interface Fuente {
@@ -107,20 +80,12 @@ export interface InformeMensual extends InformeBase {
   resultados: { lineas: Item[] };
 }
 
-export interface InformeAnual extends InformeBase {
-  tipo: 'anual';
-  columnas: string[];
-  balance: BalanceMulti;
-  resultados: { columnas: string[]; filas: FilaMatriz[] };
-}
-
-export type Informe = InformeMensual | InformeAnual;
+export type Informe = InformeMensual;
 
 /* ----- Registro ----- */
 
 export const INFORMES: Informe[] = [
   ecoData as unknown as InformeMensual,
-  earthGreenData as unknown as InformeAnual,
 ];
 
 /** Ids de los clientes que tienen al menos un informe cargado. */

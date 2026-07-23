@@ -294,113 +294,9 @@ function construirECO() {
   return informe;
 }
 
-/* ================================================================
-   2. EARTH GREEN COLOMBIA SAS  (informe anual, 2022 vs 2021)
-   ================================================================ */
-
-function construirEarthGreen() {
-  console.log('\nEARTH GREEN COLOMBIA SAS');
-  const COLS = [4, 6]; // ESF V2: 2022 en col 4, 2021 en col 6
-  const esf = hoja(F_EEFF, 'ESF V2');
-  const it = (etiqueta) => {
-    const r = fila(esf, etiqueta, 2);
-    return { concepto: String(r[2]).trim(), valores: COLS.map((c) => num(r[c])) };
-  };
-  const exacta = (etiqueta) => {
-    const r = esf.find((row) => norm(row?.[2]) === norm(etiqueta));
-    if (!r) { console.error(`No encontre la fila exacta "${etiqueta}" en ESF V2.`); process.exit(1); }
-    return { concepto: String(r[2]).trim(), valores: COLS.map((c) => num(r[c])) };
-  };
-
-  const balance = {
-    activoCorriente: ['Efectivo y equivalentes', 'Inversiones', 'Deudores comerciales', 'Inventarios'].map(it),
-    totalActivoCorriente: it('Total Activo corriente'),
-    activoNoCorriente: ['Propiedades, planta y equipo', 'Impuesto diferido', 'Otros activos'].map(it),
-    totalActivoNoCorriente: it('Total Activo no Corriente'),
-    totalActivo: exacta('Total Activo'),
-    pasivoCorriente: ['Obligaciones financieras y acreedores comerci', 'Impuestos, Gravamenes y Tasas', 'Beneficios a empleados'].map(it),
-    totalPasivoCorriente: it('Total Pasivo Corriente'),
-    pasivoNoCorriente: [],
-    totalPasivoNoCorriente: it('Total Pasivo no Corriente'),
-    totalPasivo: exacta('Total Pasivo'),
-    patrimonio: ['Capital', 'Reservas', 'Utilidades retenidas', 'Ajustes por adopcion', 'Utilidad del ejercicio'].map(it),
-    totalPatrimonio: it('Total Patrimonio'),
-    totalPasivoPatrimonio: it('Total pasivo y patrimonio'),
-  };
-  // El pasivo no corriente vive entre "Pasivo no Corriente" y su total.
-  {
-    const desde = esf.findIndex((r) => norm(r?.[2]) === 'pasivo no corriente');
-    const hasta = esf.findIndex((r) => norm(r?.[2]).startsWith('total pasivo no corriente'));
-    balance.pasivoNoCorriente = esf
-      .slice(desde + 1, hasta)
-      .filter((r) => String(r?.[2] ?? '').trim() !== '')
-      .map((r) => ({ concepto: String(r[2]).trim(), valores: COLS.map((c) => num(r[c])) }));
-  }
-
-  /* ERI V2: label col 4, 2022 col 6, 2021 col 8 */
-  const eri = hoja(F_EEFF, 'ERI  V2');
-  const COLS_ERI = [6, 8];
-  const linea = (etiqueta, nivel = 0) => {
-    const r = fila(eri, etiqueta, 4);
-    return { concepto: String(r[4]).trim(), nivel, valores: COLS_ERI.map((c) => num(r[c])) };
-  };
-  const rango = (desde, hasta, nivel) => {
-    const i = eri.findIndex((r) => norm(r?.[4]).startsWith(norm(desde)));
-    const j = eri.findIndex((r) => norm(r?.[4]).startsWith(norm(hasta)));
-    return eri
-      .slice(i + 1, j)
-      .filter((r) => String(r?.[4] ?? '').trim() !== '')
-      .map((r) => ({ concepto: String(r[4]).trim(), nivel, valores: COLS_ERI.map((c) => num(r[c])) }));
-  };
-
-  const resultados = {
-    columnas: ['2022', '2021'],
-    filas: [
-      linea('Industrias manufactureras'),
-      linea('Costo de mercancia vendida'),
-      linea('Ganancia bruta'),
-      linea('Deterioro del valor de los activos'),
-      linea('Total utilidad bruta en operaciones'),
-      ...rango('Administracion', 'Total Gastos de Administracion', 1),
-      linea('Total Gastos de Administracion'),
-      ...rango('Ventas', 'Total gastos de Ventas', 1),
-      linea('Total gastos de Ventas'),
-      linea('Total gastos ordinarios'),
-      linea('Utilidad operacional'),
-      linea('Otros ingresos'),
-      linea('Otros Egresos'),
-      linea('Costos por prestamos'),
-      linea('Utilidad Antes de Impuestos'),
-      linea('Impuesto a las ganancias'),
-      linea('Impuesto Diferido'),
-      linea('Resultado del periodo'),
-    ],
-  };
-
-  const informe = {
-    clienteId: 'earth-green-colombia-sas',
-    empresa: 'EARTH GREEN COLOMBIA SAS',
-    tipo: 'anual',
-    periodo: 'Ejercicio 2022 (comparativo 2021)',
-    corte: '31 de diciembre de 2022',
-    moneda: 'COP',
-    columnas: ['2022', '2021'],
-    balance,
-    resultados,
-    fuentes: [
-      { archivo: F_EEFF, hoja: 'ESF V2', seccion: 'Balance' },
-      { archivo: F_EEFF, hoja: 'ERI  V2', seccion: 'Estado de resultados' },
-    ],
-  };
-
-  escribir('earth-green-colombia-sas.json', informe);
-  return informe;
-}
-
 /* ------------------------------------------------------------- ejecucion */
 
 const eco = construirECO();
-const eg = construirEarthGreen();
 
 /* Cuadres: si un total no cuadra con sus partes, se avisa (no se corrige solo) */
 console.log('\nCuadres');
@@ -417,14 +313,4 @@ chk(
   'ECO utilidad del ejercicio = resultado del periodo',
   eco.balance.patrimonio.find((p) => /utilidad del ejercicio/i.test(p.concepto))?.valor,
   eco.resultados.lineas.find((l) => /resultado del periodo/i.test(l.concepto))?.valor,
-);
-chk(
-  'EG activo 2022 = pasivo + patrimonio 2022',
-  eg.balance.totalActivo.valores[0],
-  (eg.balance.totalPasivo.valores[0] ?? 0) + (eg.balance.totalPatrimonio.valores[0] ?? 0),
-);
-chk(
-  'EG utilidad del ejercicio 2022 = resultado del periodo 2022',
-  eg.balance.patrimonio.find((p) => /utilidad del ejercicio/i.test(p.concepto))?.valores[0],
-  eg.resultados.filas.find((f) => /resultado del periodo/i.test(f.concepto))?.valores[0],
 );
